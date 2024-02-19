@@ -94,12 +94,13 @@
   <li>kakao map API (국외는 인지 잘 안됨.) -> Google map API로 바꾸기</li>
   <li>명세서 만들기 (어디에 어떤 정보 있고, data명/type은 무엇이고..)</li>
   <li> postman으로 제대로 작동하는지 확인 </li>  
-  <li> variable이름 싹 다 바꾸기 </li>
+  <li> variable이름 바꾸기 </li>
 </ul>
 
 <h4>명일 작업</h4>
 <ul>
-  <li></li>
+  <li>구글 map API 가져오기</li>
+  <li>S3 사용해서 imageURL 채워넣기기</li>
 </ul>
 
 <hr>
