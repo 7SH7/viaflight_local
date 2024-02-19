@@ -15,6 +15,7 @@ public class LayoverAirportDBFrameDto {
 
 	private String layoverAirportId;    // 이건 이제 SIN 이런 것들 해주는 것.
 	private String layoverAirportName;
+	private String layoverAirportEngName;
 	private String wifi;
 	private String smokingArea;
 	private String showerFacilities;
@@ -34,6 +35,7 @@ public class LayoverAirportDBFrameDto {
 		return LayoverAirportDBFrameDto.builder()
 				.layoverAirportId(layoverAirportDBFrame.getLayoverAirportId())
 				.layoverAirportName(layoverAirportDBFrame.getLayoverAirportName())
+				.layoverAirportEngName(layoverAirportDBFrame.getLayoverAirportEngName())
 				.wifi(layoverAirportDBFrame.getWifi())
 				.smokingArea(layoverAirportDBFrame.getSmokingArea())
 				.showerFacilities(layoverAirportDBFrame.getShowerFacilities())

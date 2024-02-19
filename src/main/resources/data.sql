@@ -11,7 +11,7 @@ INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, lo
 INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, location, information, phone_number, blog, cost, type, layover_airport_id) VALUES ('앰배서더 트랜짓 호텔2', '0', '24', '매일 24시간', '터미널 3, 3층 출발 환승 홀(영화관 옆)', '창이 공항 출발 환승 홀 내에 위치한 앰배서더 환승 호텔은 승객들의 편안한 숙박을 위해 필요한 모든 것을 제공하며 다양한 시설을 갖추고 있습니다. 모닝콜 서비스도 제공되므로 비행기 놓칠 걱정도 없습니다.', '+65 6507 9788', 'http://www.harilelahospitality.com/', 'https://www.harilelahospitality.com/terminal-3-new', 'Hotel', 'SIN');
 INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, location, information, phone_number, blog, cost, type, layover_airport_id) VALUES ('제트키 슬리핑 스위트', '0', '24', '매일 24시간', 'JetQuay CIP 터미널', '창이 공항에 도착하거나 출발하거나 환승할 때 향상된 편안함과 독특한 분위기에 빠져보세요. 모두 정원 전망을 자랑하는 4개의 아름다운 스위트룸을 갖춘 JetQuay Suite 패키지는 6시간 동안 숙박 가능하며 요청 시 연장 가능합니다. 패키지에는 샤워, 식사, 라운지 이용이 포함되어 있습니다. 객실당 최대 숙박 가능 인원은 성인 1명이며, 2세 이하 유아는 무료 숙박이 가능합니다. 수면 스위트룸을 이용하려면 부두 또는 제트사이드 서비스를 예약해야 합니다. 또한 시설에 입장하기 전에 먼저 JetQuay에서 개인 입국 심사를 통과해야 합니다. 가격에는 8% GST가 적용됩니다.', '+65 6262 2220', 'www.jetquay.com.sg', '처음 6시간 동안 S$120, 이후 연장 시 시간당 S$20. 10~22시간 동안 S$200.', 'Hotel', 'SIN');
 
-#########################################
+########################################
 
 # Attraction
 INSERT INTO airport_events_db_frame (event_name, location, open_time, close_time, business_hours, information, cost, reservation_url, type, layover_airport_id) VALUES ('2 BEARS HIDEOUT', 'T2(transit)', '0', '24', '매일 24시간', '2 Bears Hideout에서는 6세부터 12세 어린이들을 위한 더욱 즐거운 플레이타임을 제공합니다. 이곳에서는 엄마곰과 아기곰과 함께 황야의 경이로움을 탐험하는 독특하고 풍부한 놀이 경험을 선사합니다. 모험과 상상력이 유쾌하게 조화를 이루는 이 곳에서 어린이들은 살아있는 듯한 상상의 세계로 빠져들며 기억에 남는 시간을 보낼 수 있습니다.', NULL, NULL, 'Attraction', 'SIN');
@@ -621,9 +621,9 @@ VALUES ('Discover Singapore', '6', '12', '오전 6시 - 오전 12시',
 
 
 ###### LayoverAirport
-INSERT INTO layover_airport_db_frame (layover_airport_id ,layover_airport_name, wifi, smoking_area, shower_facilities, pharmacy, currency_exchange, luggage_storage, information_center, skytrain, shuttle_bus, train_mrt, taxi, public_bus, airport_transfer_bus, airport_shuttle_bus)
+INSERT INTO layover_airport_db_frame (layover_airport_id ,layover_airport_name, layover_airport_eng_name, wifi, smoking_area, shower_facilities, pharmacy, currency_exchange, luggage_storage, information_center, skytrain, shuttle_bus, train_mrt, taxi, public_bus, airport_transfer_bus, airport_shuttle_bus)
 VALUES ('SIN',
-        '싱가포르 창이 공항',
+        '싱가포르 창이 공항', 'SINGAPORE CHANGI AIRPORT',
         '와이파이@창이(WiFi@Changi)를 선택하세요. 인터넷 브라우저를 실행하고 유효한 웹사이트 주소를 입력하여 로그인 페이지에 액세스합니다. WiFi 로고를 클릭하고 3시간 무료 Wifi를 즐겨보세요!',
         '[흡연장]
         1 터미널:

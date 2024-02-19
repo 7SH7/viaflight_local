@@ -1,7 +1,6 @@
 package com.example.viaflight.repository.frameAboutDB.inLayoverAirport;
 
 import com.example.viaflight.domain.frameAboutDB.inLayoverAirport.AirportEventsDBFrame;
-import com.example.viaflight.dto.frameAboutDB.inLayoverAirportDto.AirportEventsDBFrameDto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

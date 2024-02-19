@@ -28,6 +28,9 @@ public class LayoverAirportDBFrame {
 	@Column(name = "layover_airport_name", nullable = false)
 	private String layoverAirportName;
 
+	@Column(name = "layover_airport_eng_name", nullable = false)
+	private String layoverAirportEngName;
+
 	@Column(nullable = true, length = 1000)
 	private String wifi;
 

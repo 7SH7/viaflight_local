@@ -1,7 +1,7 @@
 package com.example.viaflight.service;
 
 import com.example.viaflight.controller.request.LayoverAirportRequest;
-import com.example.viaflight.controller.response.LayoverAirportResponse;
+import com.example.viaflight.controller.response.AllInfoAboutLayoverAirportResponse;
 import com.example.viaflight.dto.frameAboutDB.airportDto.LayoverAirportDBFrameDto;
 import com.example.viaflight.dto.frameAboutDB.inLayoverAirportDto.AirportEventsDBFrameDto;
 import com.example.viaflight.dto.frameAboutDB.inLayoverAirportDto.MealOptionsDBFrameDto;
@@ -27,7 +27,7 @@ import java.util.List;
 @Service
 @Transactional
 @RequiredArgsConstructor
-public class ResponseService {
+public class AllLayoverAirportInfoService {
 
 	private final LayoverAirportService layoverAirportService;
 
@@ -43,7 +43,7 @@ public class ResponseService {
 	private final PaidActivityService paidActivityService;
 
 
-	public LayoverAirportResponse load(LayoverAirportRequest layoverAirportRequest) {
+	public AllInfoAboutLayoverAirportResponse load(LayoverAirportRequest layoverAirportRequest) {
 
 		LayoverAirportDBFrameDto layoverAirportDBFrameDto = layoverAirportService.load(layoverAirportRequest);
 
@@ -56,7 +56,7 @@ public class ResponseService {
 		List<FreeTourDBFrameDto> freeTourDBFrameDtoList = freeTourService.load(layoverAirportRequest);
 		List<PaidActivityDBFrameDto> paidActivityDBFrameDtoList = paidActivityService.load(layoverAirportRequest);
 
-		return new LayoverAirportResponse(layoverAirportDBFrameDto, airportEventsDBFrameDtoList, mealOptionsDBFrameDtoList, restsDBFrameDtoList, shoppingOptionsDBFrameDtoList, foodSpotDBFrameDtoList, freeTourDBFrameDtoList, paidActivityDBFrameDtoList);
+		return new AllInfoAboutLayoverAirportResponse(layoverAirportDBFrameDto, airportEventsDBFrameDtoList, mealOptionsDBFrameDtoList, restsDBFrameDtoList, shoppingOptionsDBFrameDtoList, foodSpotDBFrameDtoList, freeTourDBFrameDtoList, paidActivityDBFrameDtoList);
 
 	}
 }
