@@ -5,6 +5,13 @@
 
 <h1>ViaFlight</h1>
 
+<h2>목표</h2>
+<ul>
+  <li>외부API 사용해보기 -> 연습량이 많을 수록 좋을 듯</li>
+  <li>aws 사용해보기 (S3, RDS, E2, ELASTIC BEANSTALK ...)</li>
+  <li>로그인 기능 (SPRING Security, jwt, OAuth2.0 모두 적용)</li>
+</ul>
+
 <h2>일지</h2>
 
 <h3>※ 2024-02-10 ~ 2024-02-13</h3>
