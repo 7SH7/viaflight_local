@@ -1,19 +1,19 @@
-# Lounge
-INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, location, information, phone_number, blog, cost, type, layover_airport_id) VALUES ('플라자 프리미엄 라운지', '0', '24', '매일 24시간', '제1터미널 3층, 출발 환승 홀(게이트 C1 위)', '싱가포르 락사, 치킨 라이스 등 맛있는 시그니처 요리를 즐기고, 수상 경력이 있는 뛰어난 시설과 서비스를 경험해보세요. 전용 휴게실에서 편안히 쉬면서 모든 편의 시설을 갖춘 상쾌한 샤워도 마음껏 이용할 수 있습니다. 음식과 음료는 연중무휴 24시간 언제든지 이용 가능합니다.', NULL, 'www.plazapremiumlounge.com', NULL, 'Lounge', 'SIN');
+-- Lounge
+
+INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, location, information, phone_number, blog, cost, type, layover_airport_id)
+VALUES ('플라자 프리미엄 라운지', '0', '24', '매일 24시간', '제1터미널 3층, 출발 환승 홀(게이트 C1 위)', '싱가포르 락사, 치킨 라이스 등 맛있는 시그니처 요리를 즐기고, 수상 경력이 있는 뛰어난 시설과 서비스를 경험해보세요. 전용 휴게실에서 편안히 쉬면서 모든 편의 시설을 갖춘 상쾌한 샤워도 마음껏 이용할 수 있습니다. 음식과 음료는 연중무휴 24시간 언제든지 이용 가능합니다.', NULL, 'www.plazapremiumlounge.com', NULL, 'Lounge', 'SIN');
 INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, location, information, phone_number, blog, cost, type, layover_airport_id) VALUES ('앰배서더 트랜짓 라운지' ,'0', '24', '매일 24시간', '제2터미널 3층, 출발 환승 홀, 중앙 라운지', '앰배서더 트랜짓 라운지는 승객들에게 긴장을 풀고 다음 항공편을 편안하게 기다릴 수 있는 넓고 아늑한 환경을 제공합니다. 라운지 내 시설에는 인쇄 서비스, 워크스테이션, 체육관, 샤워 시설 및 편의 시설과 전용 낮잠 스위트룸이 포함됩니다.', '+65 62 41 0978', 'http://www.harilelahospitality.com/', NULL, 'Lounge', 'SIN');
 INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, location, information, phone_number, blog, cost, type, layover_airport_id)VALUES ('앰배서더 트랜짓 라운지' , '0', '24', '매일 24시간', '제3터미널 3층 출발 환승 홀(영화관 옆)', '앰배서더 트랜짓 라운지는 승객들에게 긴장을 풀고 다음 항공편을 편안하게 기다릴 수 있는 넓고 아늑한 환경을 제공합니다. 라운지 내 시설에는 인쇄 서비스, 워크스테이션, 체육관, 샤워 시설 및 편의 시설과 전용 낮잠 스위트룸이 포함됩니다.', '+65 6507 9798', 'http://www.harilelahospitality.com/', NULL, 'Lounge', 'SIN');
 INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, location, information, phone_number, blog, cost, type, layover_airport_id) VALUES ('BLOSSOM - SATS & PLAZA 프리미엄 라운지', '0', '24', '매일 24시간', '4번 터미널, 출발 환승 홀, 2M층(세븐일레븐 근처)', 'Blossom Lounge는 케이터링 서비스, 샤워 시설 및 환대 공간을 제공하며 비행 전에 마사지, 매니큐어 또는 페디큐어를 받을 수 있습니다. 또한 바에서 원하는 음료를 즐길 수도 있습니다.', '+65 6581 3073', NULL, NULL, 'Lounge', 'SIN');
 INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, location, information, phone_number, blog, cost, type, layover_airport_id) VALUES ('창이 라운지', '6', '22', '매일 오전 6시 ~ 오후 10시(마지막 주문 오후 9시)', 'Jewel 1층(공공 장소)', '무료로 제공되는 가벼운 스낵, 편안한 좌석, 고속 인터넷 연결을 이용할 수 있습니다. 다음 여행을 떠나기 전에 활력을 되찾고 싶은 분들을 위해 샤워실과 낮잠 시설도 마련되어 있습니다. 개인 회의실도 예약 가능합니다. 참고로, Priority Pass(LoungeKey 및 LoungeKey Pass 포함), Dragon Pass 및 DreamFolks 회원은 유효한 탑승권으로 허용됩니다.', '+65 6513 8743', 'www.changiairport.com/changilounge', NULL, 'Lounge', 'SIN');
 
-# Hotel
+-- Hotel
 INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, location, information, phone_number, blog, cost, type, layover_airport_id) VALUES ('에어로텔 에어포트 트랜짓 호텔', '0', '24', '매일 24시간', '터미널 3, 3층, 출발 환승 홀(게이트 D41 위)', 'Aerotel Airport Transit Hotel에서는 하룻밤 숙박이든 짧은 낮잠이든 시차로 인한 피로 회복을 위해 필요한 만큼 예약 시간을 조정할 수 있습니다. 세련되고 세심한 맞춤 디자인의 객실에서는 파워 샤워기와 다양한 편의 시설을 제공하여 여행 중에도 상쾌함과 휴식을 취할 수 있습니다. 또한 상쾌함과 휴식을 취할 수 있는 자쿠지가 있는 수영장을 이용할 수 있습니다.', '+65 6808 2388', 'https://www.myaerotel.com/en-uk/find/asia-pacific/singapore/싱가포르', 'https://www.myaerotel.com/en-uk/find/asia-pacific/singapore/singapore', 'Hotel', 'SIN');
 INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, location, information, phone_number, blog, cost, type, layover_airport_id) VALUES ('앰배서더 트랜짓 호텔1', '0', '24', '매일 24시간', '제2터미널 3층, 남쪽 출발 환승 홀', '창이 공항 출발 환승 홀 내에 위치한 앰배서더 환승 호텔은 승객들의 편안한 숙박을 위해 필요한 모든 것을 제공하며 다양한 시설을 갖추고 있습니다. 모닝콜 서비스도 제공되므로 비행기 놓칠 걱정도 없습니다.', '+65 6542 8122', 'http://www.harilelahospitality.com/', 'https://www.harilelahospitality.com/terminal-3-new', 'Hotel', 'SIN');
 INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, location, information, phone_number, blog, cost, type, layover_airport_id) VALUES ('앰배서더 트랜짓 호텔2', '0', '24', '매일 24시간', '터미널 3, 3층 출발 환승 홀(영화관 옆)', '창이 공항 출발 환승 홀 내에 위치한 앰배서더 환승 호텔은 승객들의 편안한 숙박을 위해 필요한 모든 것을 제공하며 다양한 시설을 갖추고 있습니다. 모닝콜 서비스도 제공되므로 비행기 놓칠 걱정도 없습니다.', '+65 6507 9788', 'http://www.harilelahospitality.com/', 'https://www.harilelahospitality.com/terminal-3-new', 'Hotel', 'SIN');
 INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, location, information, phone_number, blog, cost, type, layover_airport_id) VALUES ('제트키 슬리핑 스위트', '0', '24', '매일 24시간', 'JetQuay CIP 터미널', '창이 공항에 도착하거나 출발하거나 환승할 때 향상된 편안함과 독특한 분위기에 빠져보세요. 모두 정원 전망을 자랑하는 4개의 아름다운 스위트룸을 갖춘 JetQuay Suite 패키지는 6시간 동안 숙박 가능하며 요청 시 연장 가능합니다. 패키지에는 샤워, 식사, 라운지 이용이 포함되어 있습니다. 객실당 최대 숙박 가능 인원은 성인 1명이며, 2세 이하 유아는 무료 숙박이 가능합니다. 수면 스위트룸을 이용하려면 부두 또는 제트사이드 서비스를 예약해야 합니다. 또한 시설에 입장하기 전에 먼저 JetQuay에서 개인 입국 심사를 통과해야 합니다. 가격에는 8% GST가 적용됩니다.', '+65 6262 2220', 'www.jetquay.com.sg', '처음 6시간 동안 S$120, 이후 연장 시 시간당 S$20. 10~22시간 동안 S$200.', 'Hotel', 'SIN');
 
-########################################
-
-# Attraction
+--  Attraction
 INSERT INTO airport_events_db_frame (event_name, location, open_time, close_time, business_hours, information, cost, reservation_url, type, layover_airport_id) VALUES ('2 BEARS HIDEOUT', 'T2(transit)', '0', '24', '매일 24시간', '2 Bears Hideout에서는 6세부터 12세 어린이들을 위한 더욱 즐거운 플레이타임을 제공합니다. 이곳에서는 엄마곰과 아기곰과 함께 황야의 경이로움을 탐험하는 독특하고 풍부한 놀이 경험을 선사합니다. 모험과 상상력이 유쾌하게 조화를 이루는 이 곳에서 어린이들은 살아있는 듯한 상상의 세계로 빠져들며 기억에 남는 시간을 보낼 수 있습니다.', NULL, NULL, 'Attraction', 'SIN');
 
 INSERT INTO airport_events_db_frame (event_name, location, open_time, close_time, business_hours, information, cost, reservation_url, type, layover_airport_id) VALUES ('FLORA INSPIRATION', 'T3(Public)', '0', '24', '매일 24시간', '우리의 정원 도시를 위한 조각적 찬가로, Han Sai Por의 꽃에서 영감을 받은 작품은 마치 실제보다도 큰 씨앗 꼬투리들이 모여 있는 것과 같습니다. 이 작품에서는 주름진 표면을 통해 식물 유기체가 지닌 자연스러운 질감을 표현하며, 우리의 정원 도시가 어떻게 계속해서 자라나고 번성하는지에 대한 경의를 나타냅니다.', NULL, NULL, 'Attraction', 'SIN');
@@ -140,9 +140,7 @@ Kinetic Rain은 20개월에 걸쳐 제작되었으며, 각 물방울은 180g의 
 
 수천 개가 넘는 ''빗방울''이 조화롭게 작동하는 Kinetic Rain은 승객과 방문객에게 놀라운 창이 경험을 제공하며, 이는 공항 커뮤니티 구성원들이 협력하여 긍정적인 에너지를 전달하는 상징적인 작품입니다.', NULL, NULL, 'Attraction', 'SIN');
 
-#########################################
-
-# meal
+-- meal
 
 INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id) VALUES ('Poulet Bijou (jewel)', '10', '22', '오전 10시 - 오후 10시', '쥬얼, 1층', 'Poulet Bijou는 2012년부터 대중에게 합리적인 가격의 프랑스 고전 요리를 제공하는 현대적인 프랑스 테마의 비스트로입니다. French Roast Chicken 마에스트로는 사내 비밀 레시피를 사용하여 하룻밤 동안 절인 갓 구운 닭고기를 제공합니다. 풀레 로티에는 맛있는 홈메이드 버섯 크림 소스, 다이앤 소스, 크랜베리 ​​소스, 블랙 페퍼 소스 등 시그니처 소스가 곁들여집니다. 그들은 시그니처 요리에 완벽한 교향곡을 만들어냅니다. Poulet은 모든 사람이 맛보고 즐길 수 있는 무언가를 제공하여 축하할 가치가 있는 모든 행사를 위한 완벽한 장소입니다.', NULL, 'https://poulet.com.sg/', NULL, 'Meal', 'SIN');
 INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id) VALUES ('Kopitiam (푸드 코트) - T3', '0', '24', '매일 24시간', '터미널 3, Public, 지하 2층', 'Kopitiam에서는 모든 사람이 좋은 음식을 저렴하게 만듭니다. 우리는 즐거운 음식 경험을 통해 가족과 친구들을 연결합니다.', NULL, NULL, NULL, 'Meal', 'SIN');
@@ -159,7 +157,7 @@ INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_ho
 INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id) VALUES ('Subway', '0', '24', '매일 24시간', '터미널 2, Transit, 3층, 출발 라운지(중앙)', 'SUBWAY®는 갓 구운 빵으로 만들고 다양한 종류의 고기, 치즈, 야채 및 토핑이 눈앞에서 바로 조리되는 6인치 길이의 샌드위치를 제공합니다. 또한 랩, 델리 및 샐러드, 감자 칩, 갓 구운 쿠키 및 다양한 음료를 제공하여 모든 방문을 신선하게 만들어 드립니다.' ,NULL, NULL, NULL, 'Meal', 'SIN');
 
 
-# cafe
+-- cafe
 INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id)
 VALUES ('STARBUCKS', '0', '24', '매일 24시간',
         '터미널 1, Transit 2층, 출발 라운지(중앙) 출발 라운지(D 게이트 근처)',
@@ -210,7 +208,7 @@ INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_ho
 INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id) VALUES ('PAUL Le Café', '0', '24', '매일 24시간', '터미널 1, Transit, 2층, 출발 라운지(C게이트 근처)', 'PAUL은 1889년부터 5대에 걸쳐 제빵사를 거쳐 좋은 빵의 맛을 위해 최선을 다해 왔습니다. 이제 여행자들은 창이 공항 제1터미널 출발 환승 라운지에 위치한 매장에서 사랑받는 고소한 빵의 풍미를 즐길 수 있습니다. 다음 항공편에 탑승하기 전에 시그니처 페이스트리, 샌드위치 및 기타 간단한 간식을 드실 수 있습니다. PAUL의 정통 프랑스 빵, 비에누아즈리, 페이스트리, 구운 특선 요리를 창이 공항에서 바로 여기에서 만나 프랑스의 진정한 맛을 즐겨보세요!', NULL, NULL, '65426468', 'Cafe', 'SIN');
 
 
-# Dessert
+-- Dessert
 
 INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id)
 VALUES ('Birds of Paradise Gelato Boutique Jewel Changi Airport', '11', '22', '오전 11시 - 오후 10시',
@@ -279,7 +277,7 @@ VALUES ('Heavenly Wang @ Changi Airport Terminal 3 Arrival Hall', '0', '24', '�
 
 
 
-# Fashion
+-- Fashion
 INSERT INTO shopping_options_db_frame (shopping_options_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id)
 VALUES ('타미 힐피거', '6', '1', '오전 6시 - 오전 1시',
         '터미널 2, Transit, 2층, 출발 라운지(E 게이트 근처)',
@@ -368,7 +366,7 @@ INSERT INTO shopping_options_db_frame (shopping_options_name, open_time, close_t
 VALUES ('Asian Artistry Fine Jewellery', '10', '22', '오전 10시 - 오후 10시', '쥬얼, 1층', '각각의 작품이 절묘한 솜씨와 현대적인 디자인을 결합한 Asian Artistry Fine Jewellery에서 페라나칸, 중국 및 인도 유산과 문화의 아름다움을 발견해 보세요.', NULL, NULL, NULL, 'Fashion', 'SIN');
 
 
-# Food, Beverage, Duty free
+-- Food, Beverage, Duty free
 INSERT INTO shopping_options_db_frame (shopping_options_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id)
 VALUES ('8 by Bottles & Bottles', '10', '22', '오전 10시 - 오후 10시',
         '쥬얼, 지하 2층',
@@ -555,7 +553,7 @@ VALUES ('Cheers', '0', '24', '매일 24시간',
 
 
 
-# Entertainment
+-- Entertainment
 
 INSERT INTO shopping_options_db_frame (shopping_options_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id)
 VALUES ('플라이 창이', '0', '24', '매일 24시간',
@@ -620,7 +618,7 @@ VALUES ('Discover Singapore', '6', '12', '오전 6시 - 오전 12시',
         NULL, NULL, '65931774', 'Entertainment', 'SIN');
 
 
-###### LayoverAirport
+-- LayoverAirport
 INSERT INTO layover_airport_db_frame (layover_airport_id ,layover_airport_name, layover_airport_eng_name, wifi, smoking_area, shower_facilities, pharmacy, currency_exchange, luggage_storage, information_center, skytrain, shuttle_bus, train_mrt, taxi, public_bus, airport_transfer_bus, airport_shuttle_bus)
 VALUES ('SIN',
         '싱가포르 창이 공항', 'SINGAPORE CHANGI AIRPORT',
@@ -846,7 +844,7 @@ VALUES ('SIN',
         );
 
 
-# FoodSpot
+-- FoodSpot
 INSERT INTO food_spot_db_frame (food_spot_name, open_time, close_time, business_time, information, phone_number, type, image_url, layover_airport_id)
 VALUES ('송파 바쿠테 본점', '10', '21', '오전 10시~오후 9시', '바쿠테(싱가포르식 돼지갈비탕)는 돼지 뼈를 삶아 우려낸 현지 음식으로 송파 바쿠테는 바쿠테와 고기 조림 요리로 유명해 많은 손님이 찾는 아늑한 레스토랑입니다. 한국의 갈비탕과 같은 보양식으로 현지인들이 자주 먹으며 한국인의 입맛에 잘 맞습니다. 가격은 약 SG$510 정도입니다.', NULL, 'FoodSpot', NULL, 'SIN');
 
@@ -872,7 +870,7 @@ INSERT INTO food_spot_db_frame (food_spot_name, open_time, close_time, business_
 VALUES ('Positano Risto', '12', '22', '오후12시 ~ 오후10시', '무알코올 음료와 푸짐한 할랄 및 이탈리아 요리를 제공하는 편안한 실내 레스토랑입니다. 피자, 아란치니, 파스타, 라자냐 등 다양한 이탈리안 요리를 판매합니다.', '(+65 6292 1866)', 'FoodSpot', NULL, 'SIN');
 
 
-# paid_activity
+-- paid_activity
 
 INSERT INTO paid_activity_db_frame (paid_activity_name, open_time, close_time, used_time, business_time, information, cost, homepage, type, image_url, layover_airport_id)
 VALUES ('싱가포르 라이온 시티 하이라이트 자전거 투어', 9, 24, 4, '오전9시~', '현지 전문 가이드와 함께 싱가포르의 역사 및 관광 자전거 투어에 참여하세요. 도시를 달리며 싱가포르의 역사와 문화의 흥미로운 측면을 발견하세요. 인적이 드문 길에서 벗어나기
@@ -956,7 +954,7 @@ VALUES
 
 
 
-# FreeTour
+-- FreeTour
 
 INSERT INTO free_tour_db_frame(free_tour_name, route, business_time, information, cost, homepage, type, image_url, layover_airport_id)
 VALUES ('헤리티지 투어', '마리나베이 - 중심 상업 지구 - 차이나타운 (30분 경유) - 싱가포르 강 - 캄퐁 글람 (30분 경유)', '2시간 30분',
@@ -985,7 +983,7 @@ VALUES
 
 
 
-# Dubai
+-- Dubai
 INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, location, information, phone_number, blog, cost, type, layover_airport_id)
 VALUES ('Marhaba Lounge', '0', '24', '매일 24시간', '터미널 1 탑승동 D', '두바이 국제공항 내 marhaba 라운지는 휴식, 재충전 및 업무에 필요한 모든 시설을 갖추고 있어서 평화로운 오아시스와 같습니다.', '+971 4 389 8989', 'marhabaservices.com', '76000원부터~','Lounge', 'DXB');
 
