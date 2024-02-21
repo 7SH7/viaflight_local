@@ -118,12 +118,29 @@
 <ul>
   <li>구글 map API 가져오기 성공 ::> parsing은 차후에 </li>
   <li>S3이미지 처리 코드 + 다 오리기기</li>
+  <li>S3 사용해서 imageURL 채워넣기기</li>
 </ul>
 
 <h4>명일 작업</h4>
 <ul>
-  <li>구글 map API 가져오기</li>
-  <li>S3 사용해서 imageURL 채워넣기기</li>
+  <li></li>
+</ul>
+
+<hr>
+
+<h3>※ 2024-02-21</h3>
+
+<h4>수행 작업</h4>
+<ul>
+  <li>구글 map API -> parsing은 성공 </li>
+  <li>S3이미지 처리 마감.</li>
+  <li>DB바꾸기</li>
+</ul>
+
+<h4>명일 작업</h4>
+<ul>
+  <li>F.E, D.E 요청 사항 맞춰 DB값 바꾸기.</li>
+  <li>likelion github 정리하기기</li>
 </ul>
 
 <hr>
