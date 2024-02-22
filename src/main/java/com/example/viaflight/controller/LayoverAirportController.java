@@ -3,7 +3,7 @@ package com.example.viaflight.controller;
 import com.example.viaflight.controller.request.LayoverAirportRequest;
 import com.example.viaflight.controller.response.AllInfoAboutLayoverAirportResponse;
 import com.example.viaflight.controller.response.LayoverAirportInResponse;
-import com.example.viaflight.controller.response.LayoverAirportInfo;
+import com.example.viaflight.controller.response.LayoverAirportInfoResponse;
 import com.example.viaflight.controller.response.LayoverAirportOutResponse;
 import com.example.viaflight.dto.frameAboutDB.airportDto.LayoverAirportDBFrameDto;
 import com.example.viaflight.service.AllLayoverAirportInfoService;
@@ -36,13 +36,13 @@ public class LayoverAirportController {
 
 	private final LayoverAirportService layoverAirportService;
 	@GetMapping("/layover-airport")
-	public ResponseEntity<LayoverAirportInfo> getLayoverAirportInfo
+	public ResponseEntity<LayoverAirportInfoResponse> getLayoverAirportInfo
 		(@RequestParam("layoverAirportName") String layoverAirportName, @RequestParam("layoverArrivalTime") String layoverArrivalTime, @RequestParam("layoverTime") String layoverTime) {
 
 		LayoverAirportRequest layoverAirportRequest = new LayoverAirportRequest(layoverAirportName, layoverArrivalTime, layoverTime);
 
 		LayoverAirportDBFrameDto response = layoverAirportService.load(layoverAirportRequest);
-		return ResponseEntity.ok().body(new LayoverAirportInfo(response));
+		return ResponseEntity.ok().body(new LayoverAirportInfoResponse(response));
 	}
 
 	private final InLayoverAirportInfoService inLayoverAirportInfoService;

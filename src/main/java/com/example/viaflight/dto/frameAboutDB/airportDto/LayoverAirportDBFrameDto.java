@@ -6,6 +6,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -29,6 +31,8 @@ public class LayoverAirportDBFrameDto {
 	private String publicBusOutAirport;
 	private String airportTransferBusOutAirport;
 	private String airportShuttleBusOutAirport;
+
+
 
 	public static LayoverAirportDBFrameDto from(LayoverAirportDBFrame layoverAirportDBFrame) {
 		return LayoverAirportDBFrameDto.builder()

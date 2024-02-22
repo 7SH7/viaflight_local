@@ -8,6 +8,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.awt.geom.Area;
+import java.util.List;
 
 @Entity
 @Data
@@ -72,6 +73,7 @@ public class LayoverAirportDBFrame {
 
 	@Column(name = "airport_shuttle_bus", nullable = true, length = 1000)
 	private String airportShuttleBusOutAirport;
+
 
 
 }

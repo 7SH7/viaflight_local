@@ -20,6 +20,29 @@ INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, lo
 VALUES ('Changi Lounge', '6', '22', '6:00AM - 10:00PM (마지막 주문: 9:00PM)', 'Jewel, 1F(공공 장소)', '무료로 제공되는 가벼운 스낵과 편안한 좌석에서 고속 인터넷을 즐길 수 있습니다. 활력을 되찾고 싶은 분들을 위한 샤워실과 낮잠 시설도 있으며, 개인 회의실도 예약 가능합니다. Priority Pass, Dragon Pass, DreamFolks 회원은 유효한 탑승권으로 입장 가능합니다.', '+65 6513 8743', 'www.changiairport.com/changilounge',
         NULL, 'Lounge', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/652ae5cf-3543-48ec-a746-ec981da06acc%EC%B0%BD%EC%9D%B4%20%EB%9D%BC%EC%9A%B4%EC%A7%80.jpg');
 
+
+-- rests
+INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, location, information, phone_number, blog, cost, type, layover_airport_id, image_url)
+VALUES ('Snooze Lounge', '0', '24', 'OPEN 24/7', 'T1, 3F, 출발 환승 홀 동쪽', '편안하고 무료로 이용할 수 있는 스누즈 라운지에서 잠깐 낮잠을 자거나 휴식을 취해 보세요.', NULL, NULL,
+        NULL, 'Rest', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/abf8838e-9b98-4b00-ac9c-c291ff9fd07fKakaoTalk_20240222_104849943_03.jpg');
+
+INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, location, information, phone_number, blog, cost, type, layover_airport_id, image_url)
+VALUES ('Snooze Lounge', '0', '24', 'OPEN 24/7', 'T2, 2F, 출발 환승 홀(코코아 나무 근처)', '편안하고 무료로 이용할 수 있는 스누즈 라운지에서 잠깐 낮잠을 자거나 휴식을 취해 보세요.', NULL, NULL,
+        NULL, 'Rest', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/bb6b8762-c70a-4433-a3c1-d8b89b2d0021KakaoTalk_20240222_104849943.jpg');
+
+INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, location, information, phone_number, blog, cost, type, layover_airport_id, image_url)
+VALUES ('Snooze Lounge', '0', '24', 'OPEN 24/7', 'T2, 3F, 출발 환승 홀(해바라기 정원 근처)', '편안하고 무료로 이용할 수 있는 스누즈 라운지에서 잠깐 낮잠을 자거나 휴식을 취해 보세요.', NULL, NULL,
+        NULL, 'Rest', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/bb6b8762-c70a-4433-a3c1-d8b89b2d0021KakaoTalk_20240222_104849943.jpg');
+
+INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, location, information, phone_number, blog, cost, type, layover_airport_id, image_url)
+VALUES ('Snooze Lounge', '0', '24', 'OPEN 24/7', 'T3, 출발 환승 홀 남쪽(GST 환불 카운터 근처)', '편안하고 무료로 이용할 수 있는 스누즈 라운지에서 잠깐 낮잠을 자거나 휴식을 취해 보세요.', NULL, NULL,
+        NULL, 'Rest', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/c684df8a-5f0e-4c22-8b89-f4ff330f2b67KakaoTalk_20240222_104849943_01.jpg');
+
+INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, location, information, phone_number, blog, cost, type, layover_airport_id, image_url)
+VALUES ('Snooze Lounge', '0', '24', 'OPEN 24/7', 'T4, 2MF, 출발 환승 홀', '편안하고 무료로 이용할 수 있는 스누즈 라운지에서 잠깐 낮잠을 자거나 휴식을 취해 보세요.', NULL, NULL,
+        NULL, 'Rest', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/7cb6e6bd-0c6f-4f0c-b064-512b14ef3594KakaoTalk_20240222_104849943_02.jpg');
+
+
 -- Hotel
 INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, location, information, phone_number, blog, cost, type, layover_airport_id, image_url)
 VALUES ('Aerotel Airport Transit Hotel', '0', '24', 'OPEN 24/7', 'T3, 3F, 출발 환승 홀(Gate D41 위)', 'Aerotel Airport Transit Hotel에서는 하룻밤 숙박이든 짧은 낮잠이든 필요한 만큼 예약 시간을 조정할 수 있습니다. 맞춤 디자인의 객실에서는 파워 샤워기와 편의 시설을 제공하여 여행 중 휴식을 취할 수 있어요. 수영장에는 자쿠지도 있습니다.', '+65 6808 2388', 'https://www.myaerotel.com/en-uk/find/asia-pacific/singapore/싱가포르', 'https://www.myaerotel.com/en-uk/find/asia-pacific/singapore/singapore',
@@ -125,7 +148,7 @@ VALUES ('Swensen''s', '11', '22', 'AM 11:00 - PM 10:00', 'T3, Public, B2', 'Swen
 INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
 VALUES ('4 Fingers Crispy chicken', '11', '22', 'AM 11:00 - PM 10:00', 'T3, Public, B2', '이곳은 일반 패스트푸드를 넘어선 강렬한 맛을 선사합니다.
 간장 마늘과 핫 앤 스파이시 두 가지 소스로 풍미를 더하고, 독특한 요리 과정으로 가볍고 바삭한 껍질을 만듭니다.
- 신선하고 육즙이 풍부한 치킨은 손으로 칠한 소스가 바삭한 껍질에 붙어 더욱 맛있습니다.', NULL, NULL, NULL, 'Meal', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/6b210ea3-c7bd-4111-b734-f3a868b4f358swensen%27s.jpg');
+신선하고 육즙이 풍부한 치킨은 손으로 칠한 소스가 바삭한 껍질에 붙어 더욱 맛있습니다.', NULL, NULL, NULL, 'Meal', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/1a56f28d-be3e-4ecb-ac54-d586b1e0612c4fingers.jpg');
 
 INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
 VALUES ('Paradise Dynasty at Changi Airport T3', '10.5', '23', 'AM 10:30 - PM 11:00', 'T3, Public, 3F', '다이너스티는 혁신적인 터치로 북부와 남부 중국 요리를 현대적인 스타일로 재해석합니다.
@@ -780,136 +803,71 @@ VALUES ('Discover Singapore', '6', '12', 'AM 6:00 - AM 12:00',
 
 
 -- LayoverAirport
+-- delete from layover_airport_db_frame where layover_airport_id = 'SIN';
+
 INSERT INTO layover_airport_db_frame (layover_airport_id ,layover_airport_name, layover_airport_eng_name, wifi, smoking_area, shower_facilities, pharmacy, currency_exchange, luggage_storage, information_center, skytrain, shuttle_bus, train_mrt, taxi, public_bus, airport_transfer_bus, airport_shuttle_bus)
 VALUES ('SIN',
         '싱가포르 창이 공항', 'SINGAPORE CHANGI AIRPORT',
-        '와이파이@창이(WiFi@Changi)를 선택하세요. 인터넷 브라우저를 실행하고 유효한 웹사이트 주소를 입력하여 로그인 페이지에 액세스합니다. WiFi 로고를 클릭하고 3시간 무료 Wifi를 즐겨보세요!',
-        '[흡연장]
-        1 터미널:
-        출국장 2층 (C16, 17 사이)
-        출국장 2층 (D35, 36 사이)
-        출국장 2층 (Water Lilly Garden 옆)
-        출국장 3층 (Cactus Garden 옆)
-        출국장 3층 (Rest Area 옆)
+        '싱가포르 창이 공항에서는 무료 와이파이가 제공됩니다.
+아래 단계를 따라 접속하세요.
 
-        2 터미널:
-        출국장 2층 (F30 주변)
-        출국장 3층 (Sunflower Garden 옆)
+Step1.  #WiFi@Changi를 선택하세요.
+Step2. 인터넷 브라우저 (예:Safari, Chrome, Firefox, Internet Explorer)를
+실행하고 유효한 웹사이트 주소를 입력하여 로그인 페이지에 액세스 합니다.
+Step3. WiFi 로고를 클릭하고 3시간 무료 Wifi를 즐겨보세요!',
+        '[ 1 Terminal ] 출국장 2F (C16, 17 사이 | D35, 36 사이 | Water Lilly Garden 옆)                         출국장 3F (Cactus Garden 옆 | Rest Area 옆) [ 2 Terminal ] 출국장 2F (F30 주변)
+                        출국장 3F (Sunflower Garden 옆) [ 3 Terminal ] 출국장 2F (A8 옆 | A21 옆 | B9, 10 사이)
+[ 4 Terminal ] 출국장 2F (Heritage Zone 주변 | G16 앞)                         출국장 2MF (Blossom 프리미엄 라운지 옆)',
+        '[Hub & Spoke 공용 샤워실] 2T 외부 1F, AM 7:00 - PM 10:00(1인당 SG$5 | 2회 입장 시 SG$7)  수건을 제외한 온수, 샴푸, 바디워시, 헤어드라이어 등의 편의시설이 제공
+(Hub&Spoke의 자판기에서 일회용 수건  구입 가능)  [Terminal 1] Plaza Premium Lounge (3F, 출발 환승 홀(C Gate 근처), OPEN 24/7 [Terminal 2] Ambassador Transit Lounge (3F, 출발 환승 홀 중앙(F Gate 근처), OPEN 24/7 [Terminal 3] Ambassador Transit Lounge (3F, 출발 환승 홀, OPEN 24/7)                       Be Relax (2층, 출발 환승 홀, 매일 AM 8:00 - PM 11:00)                       Nature Land spa (입국장 1F 미팅홀, 매일 AM 9:00 - PM10:30) [쥬얼 창이 공항] Changi Lounge (1층 리프트 로비 E 옆, 매일 AM 9:00 - PM 9:00)',
+        '공항에 머무는 동안 몸이 불편하거나 의료 지원이 필요한 경우,  다음 진료소 및 약국을 방문하여 치료를 받거나 빠른 회복을 위해 약을 구할 수 있습니다. 응급 상황 발생 시 (+65 6543 2223)  Raffles Medical Group [1 Terminal] 출국장 2F (동쪽 D Gate 근처 | 서쪽 Quickbites 근처) [2 Terminal] 출국장 2F(F Gate 근처 | Enchanted Garden 근처) [3 Terminal] B2, 공용 공간(버스 정류장 근처)(약사가 근무하지 않음)                           출국장 2F (Quickbites 근처 | 게이트 B1 근처) [공항 약국] T4 출국장 2F (롯데 면세점 옆)',
+        '[ChangiFX 환전소, UOB, Travelex 환전소]
+1 Terminal:
+입국장 1F 수하물 홀
+출국장 2F(C Gate 근처)
+출국장 2F(D Gate 근처)
 
-        3 터미널
-        출국장 2층 (A8 옆)
-        출국장 2층 (A21 옆)
-        출국장 2층 (B9, 10 사이)
+ 2 Terminal:
+입국장 1F
+출국장 2F(E Gate 근처)
+출국장 2F(F Gate 근처)
+출발/체크인 홀 2층(북쪽)
 
-        4 터미널
-        출국장 2층 (Heritage Zone 주변)
-        출국장 2층 (G16 앞)
-        출국장 2M층 (Blossom 프리미엄 라운지 옆)',
-        '[Hub & Spoke 공용 샤워실]
-        위치: 2터미널 외부 1층
-        운영 시간: 오전 7시 - 오후 10시
-        가격:
-        - 1인당 SG$5
-        - 2회 입장 시 SG$7
+ 3 Terminal:
+입국장 1F
+출국장 2F
+출국장 2F (A Gate근처)
+출국장 2F (B Gate 근처)
 
-        참고:
-        1. 온수, 샴푸, 바디워시, 헤어드라이어 등의 편의시설이 제공됩니다.
-        2. 수건은 제공되지 않으며, Hub&Spoke의 자판기에서 일회용 수건
-        구입이 가능합니다.
-
-        [1 터미널]
-        - 플라자 프리미어 라운지 (3층, 출발 환승 홀(C게이트 근처), 매일 24시간 운영
-        [2 터미널]
-        - 앰배서더 트랜짓 라운지 (3층, 출발 환승 홀 중앙(F 게이트 근처), 매일 24시간 운영
-        [3 터미널]
-        - 앰배서더 트랜짓 라운지 (3층, 출발 환승 홀, 매일 24시간)
-        - Be Relax (2층, 출발 환승 홀, 매일 오전8시-오후11시)
-        - 네이처랜드 스파 (입국장 1층 미팅홀, 매일 오전 9시-오후10시 30분)
-
-        [쥬얼 창이 공항]
-        - 창이 라운지 (1층 리프트 로비 E 옆, 매일 오전 9시-오후 9시)',
-        'Clinics & Pharmacies
-        - 창이 공항에 머무는 동안 몸이 불편하거나 의료 지원이 필요한 경우,
-        다음 진료소 및 약국을 방문하여 치료를 받거나 빠른 회복을 위해  약을 구할 수 있습니다.
-        응급 상황 발생 시: +65 6543 2223
-
-        Raffles Medical Group
-        [1 터미널]
-        - 출국장 2층 동쪽(D 게이트 근처)
-        - 출국장 2층 서쪽 (Quickbites 근처)
-        [2 터미널]
-        - 출국장 2층(F 게이트 근처)
-        - 출국장 2층(Enchanted Garden 근처)
-        [3 터미널]
-        - 지하 2층, 공용 공간(버스 정류장 근처)(약사가 근무하지 않음)
-        - 출국장 2층 (Quickbites 근처)
-        - 출국장 2층(게이트 B1 근처)
-
-        공항 약국
-        - 4 터미널 출국장 2층 (롯데 면세점 옆)',
-        '[인포센터]
-
-        싱가포르 창이 공항의 인포센터는 여행 중 궁금한 사항, 분실물 문의, 휠체어 및 유모차 대여와 같은 다양한 서비스를 제공합니다. "i" 로고가 보이는 곳이면 어디서든 도움을 받을 수 있습니다.
-
-        위치:
-        [1 터미널]
-        입국장 1층
-        출국장 2층 체크인 카운터 중앙
-        출국장 2층 환승 라운지 양쪽
-        [2 터미널]
-        입국장 1층
-        출국장 2층 환승 라운지 양쪽
-        [3 터미널]
-        입국장 1층
-        출국장 2층 체크인 카운터 중앙
-        출국장 2층 환승 라운지 중앙 및 양쪽
-        [4 터미널]
-        입국장 1층
-        출국장 2층 체크인 카운터 중앙
-        출국장 2층 환승 라운지 양쪽',
+ 4 Terminal:
+입국장 1F
+출국장 2F',
         '[수하물 보관소]
 
-        24시간당 보관 요금 (GST 포함)
-        - 일반 품목: 6달러
-        - 소형 품목(10kg 미만): 11달러
-        - 대형 품목(10kg 초과): 16달러
-        - 특대형 품목: 19달러
+24시간당 보관 요금 (GST 포함)
+- 일반 품목: 6달러
+- 소형 품목(10kg 미만): 11달러
+- 대형 품목(10kg 초과): 16달러
+- 특대형 품목: 19달러
 
-        주의: 모든 가방이나 물건은 보안 검사를 통과해야 합니다.
+주의: 모든 가방이나 물건은 보안 검사를 통과해야 합니다.
 
-        정보:
-        1 터미널 환승장 2층 서쪽(Guardian 근처)
-        운영시간: 24시간
-        전화: +65 6214 0318
+정보:
+1 Terminal 환승장 2F 서쪽(Guardian 근처)
+운영시간: OPEN 24/7
+전화: +65 6214 0318
 
-        2 터미널 환승장 2층, 북쪽 (Raffles Medical 옆)
-        운영시간: 매일 오전 7시-오후11시
-        전화: +65 6513 3671
+2 Terminal 환승장 2F, 북쪽 (Raffles Medical 옆)
+운영시간: 매일 AM 7:00 - PM 11:00
+전화: +65 6513 3671
 
-        3 터미널 환승장 2층 서쪽(Maison De Chronus enl 뒤)
-        운영시간: 매일 24시간
-        전화: +65 6214 0672',
-        '[ChangiFX 환전소, UOB, Travelex 환전소]
-        1 터미널:
-        입국장 1층 수하물 홀
-        출국장 2층(C 게이트 근처)
-        출국장 2층(D 게이트 근처)
-
-        2 터미널:
-        입국장 1층
-        출국장 2층(E 게이트 근처)
-        출국장 2층(F 게이트 근처)
-        출발/체크인 홀 2층(북쪽)
-
-        3 터미널
-        입국장 1층
-        출국장 2층
-        출국장 2층(A 게이트 근처)
-        출국장 2층(B 게이트 근처)
-
-        4 터미널
-        입국장 1층
-        출국장 2층',
+3 Terminal 환승장 2F 서쪽(Maison De Chronus enl 뒤)
+운영시간: OPEN 24/7
+전화: +65 6214 0672',
+        '여행 중 궁금한 사항, 분실물 문의,
+휠체어 및 유모차 대여와 같은 다양한 서비스를 제공합니다.
+''i'' 로고가 보이는 곳이면 어디서든 도움을 받을 수 있습니다.  [ 1 Terminal ] 입국장 1F, 출국장 2F 체크인 카운터 중앙, 출국장 2F 환승 라운지 양쪽 [ 2 Terminal ] 입국장 1F, 출국장 2F 환승 라운지 양쪽
+[ 3 Terminal ] 입국장 1F, 출국장 2F 체크인 카운터 중앙, 출국장 2F 환승 라운지 중앙 및 양쪽 [ 4 Terminal ] 입국장 1F, 출국장 2F 체크인 카운터 중앙, 출국장 2F 환승 라운지 양쪽',
         '1, 2, 3 터미널은 스카이 트레인 또는 도보로 이동이 가능합니다.
         4 터미널은 셔틀 버스로만 이동할 수 있습니다.
 
@@ -1114,14 +1072,14 @@ VALUES
 INSERT INTO free_tour_db_frame(free_tour_name, route, business_time, information, cost, homepage, type, image_url, layover_airport_id)
 VALUES ('Heritage Tour', '마리나베이 - 중심 상업 지구 - 차이나타운 (30분 경유) - 싱가포르 강 - 캄퐁 글람 (30분 경유)', '2h 30min',
         '싱가포르의 유서깊은 역사와 문화를 탐험할 수 있습니다. 차이나타운과 캄퐁 겔람의 문화 구역을 산책해보세요. 보석 같은 건축물과 사진을 찍을 수 있고 현지 간식이나 독특한 기념품을 구입할 수 있습니다.',
-        '무료', 'https://www.changiairport.com/en/discover/recommended-itineraries/free-singapore-heritage-tour.html', 'free_tour', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/e00506d7-c651-4409-b2dc-309923922f27sights0tour.jpg', 'SIN');
+        '무료', 'https://www.changiairport.com/en/discover/recommended-itineraries/free-singapore-heritage-tour.html', 'free_tour', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/07cc8219-7f15-4625-8c76-7d1eb874f3a6heritage_tour.jpg', 'SIN');
 
 
 INSERT INTO free_tour_db_frame(free_tour_name, route, business_time, information, cost, homepage, type, image_url, layover_airport_id)
 VALUES ('City Sights Tour', '시청 - 시민 지구 - 주빌리 브릿지 - 머라이언 공원 (30분 경유) - 가든스 바이 더 베이 (30분 체류) - 마리나 베이 샌즈', '2h 30min',
      '싱가포르의 현대적이고 웅장한 도시 경관은 활기차고 살기 좋은 도시를 보장하기 위해 지속 가능한 방식으로
 건설되어 왔습니다. 세계적으로 유명한 마리나 베이의 스카이라인과 슈퍼트리의 놀라운 전망을 감상해보세요.',
-     '무료', 'https://www.changiairport.com/en/discover/recommended-itineraries/free-singapore-city-sights-tour.html', 'free_tour', NULL, 'SIN');
+     '무료', 'https://www.changiairport.com/en/discover/recommended-itineraries/free-singapore-city-sights-tour.html', 'free_tour', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/e00506d7-c651-4409-b2dc-309923922f27sights0tour.jpg', 'SIN');
 
 
 INSERT INTO free_tour_db_frame(free_tour_name, route, business_time, information, cost, homepage, type, image_url, layover_airport_id)
