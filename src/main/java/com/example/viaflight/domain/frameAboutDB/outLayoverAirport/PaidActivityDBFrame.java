@@ -46,7 +46,7 @@ public class PaidActivityDBFrame {
 	@Column(name = "type", nullable = false)
 	private String type;
 
-	@Column(name = "image_url" ,nullable = true)
+	@Column(name = "image_url" ,nullable = true, length = 1000)
 	private String imageURL;
 
 	@Column(name = "layover_airport_id", nullable = false)

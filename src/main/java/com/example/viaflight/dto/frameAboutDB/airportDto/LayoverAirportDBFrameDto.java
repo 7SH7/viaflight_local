@@ -10,7 +10,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-
 public class LayoverAirportDBFrameDto {
 
 	private String layoverAirportId;    // 이건 이제 SIN 이런 것들 해주는 것.

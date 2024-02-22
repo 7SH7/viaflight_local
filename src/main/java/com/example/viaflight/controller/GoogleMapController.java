@@ -1,6 +1,7 @@
 package com.example.viaflight.controller;
 
-import com.example.viaflight.service.GoogleMapServie;
+import com.example.viaflight.controller.response.GeoCodingResponse;
+import com.example.viaflight.service.foreignAPI.GoogleMapServie;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,7 +17,8 @@ public class GoogleMapController {
 	private final GoogleMapServie geocodingService;
 
 	@GetMapping("/search")
-	public Mono<String> search(@RequestParam String address) {
+//	public Mono<String> search(@RequestParam String address) {
+	public Mono<GeoCodingResponse> search(@RequestParam String address) {
 		return geocodingService.getLatLong(address);
 	}
 
