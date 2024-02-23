@@ -152,6 +152,7 @@
 <ul>
   <li>F.E와 작업하며, 추천 기능 (JPQL)에 논리 문제가 있음을 확인함. -> 일단 수정은 하되, LIKELIONHGU GITHUB에는 PUSH 안 할 듯 </li>
   - (기존 내용 망가지는 거 방지)
+  <li>Elastic BeanTalk 삭제함. -> 새롭게 열 것임.</li>
 </ul>
 
 <h4>명일 작업</h4>
