@@ -53,13 +53,13 @@ VALUES ('Ambassador Transit Hotel', '0', '24', 'OPEN 24/7', '2T, 3F, 남쪽 출�
         'Hotel', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/cf2c18c7-1bea-4fc2-a3be-d41638412079%EC%97%A0%EB%B0%B0%EC%84%9C%EB%8D%941.jpg');
 
 INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, location, information, phone_number, blog, cost, type, layover_airport_id, image_url)
-VALUES ('Ambassador Transit Hotel', '0', '24', 'OPEN 24/7', 'T3, 3F 출발 환승 홀(영화관 옆)', '창이 공항 출발 환승 홀 내에 있는 앰배서더 환승 호텔은 승객들의 편안한 숙박을 위해 필요한 모든 것을 갖추고 있습니다. 모닝콜 서비스도 제공되어 비행기를 놓치지 않을 걱정이 없습니다.', '+65 6507 9788', 'http://www.harilelahospitality.com/', 'https://www.harilelahospitality.com/terminal-3-new',
-        'Hotel', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/5f18b67f-7566-4400-9b2d-4d521373d319%EC%97%A0%EB%B0%B0%EC%84%9C%EB%8D%942.jpg');
-
-INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, location, information, phone_number, blog, cost, type, layover_airport_id, image_url)
 VALUES ('JetQuay Suite', '0', '24', 'OPEN 24/7', 'JetQuay CIP Terminal', '
 JetQuay Suite 패키지는 공항 도착/출발/환승 시 고급 편안함을 제공합니다. 4개의 정원 전망 스위트룸을 6시간 동안 이용 가능하며, 요청 시 연장 가능합니다. 패키지에는 샤워, 식사, 라운지 이용이 포함돼 있습니다.', '+65 6262 2220', 'www.jetquay.com.sg', '처음 6시간 동안 S$120, 이후 연장 시 시간당 S$20. 10~22시간 동안 S$200.',
         'Hotel', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/7eedb85d-f2e6-4c8e-9ad3-d405895719d2%EC%A0%9C%ED%8A%B8%ED%82%A4.jpg');
+
+INSERT INTO rests_db_frame (rest_name, open_time, close_time, business_hours, location, information, phone_number, blog, cost, type, layover_airport_id, image_url)
+VALUES ('Ambassador Transit Hotel', '0', '24', 'OPEN 24/7', 'T3, 3F 출발 환승 홀(영화관 옆)', '창이 공항 출발 환승 홀 내에 있는 앰배서더 환승 호텔은 승객들의 편안한 숙박을 위해 필요한 모든 것을 갖추고 있습니다. 모닝콜 서비스도 제공되어 비행기를 놓치지 않을 걱정이 없습니다.', '+65 6507 9788', 'http://www.harilelahospitality.com/', 'https://www.harilelahospitality.com/terminal-3-new',
+        'Hotel', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/5f18b67f-7566-4400-9b2d-4d521373d319%EC%97%A0%EB%B0%B0%EC%84%9C%EB%8D%942.jpg');
 
 --  Attraction
 INSERT INTO airport_events_db_frame (event_name, location, open_time, close_time, business_hours, information, cost, reservation_url, type, layover_airport_id, image_url)
@@ -129,9 +129,7 @@ VALUES ('KINETIC RAIN', 'T1, Public, 2F', '6', '24', '6:00AM - 12:00PM', 'T1 키
 INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
 VALUES ('Poulet Bijou', '10', '22', 'AM 10:00 - PM 10:00', 'Jewel, 1F', 'Poulet Bijou는 2012년부터 대중에게 합리적인 가격의 프랑스 고전 요리를 제공하는 현대적인 프랑스 테마의 비스트로입니다.
 French Roast Chicken 마에스트로는 사내 비밀 레시피를 사용하여 하룻밤 동안 절인 갓 구운 닭고기를 제공합니다.', NULL, 'https://poulet.com.sg/', NULL, 'Meal', 'SIN','https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/dc426f28-fe83-4259-9367-caccbdca436epoulet.jpg');
-INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
-VALUES ('Kopitiam (푸드 코트)', '0', '24', 'OPEN 24/7', 'T3, Public, B2', 'Kopitiam에서는 모든 사람이 좋은 음식을 저렴하게 만듭니다.
-우리는 즐거운 음식 경험을 통해 가족과 친구들을 연결합니다.', NULL, NULL, NULL , 'Meal', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/04e4a3ae-2f2c-4c2f-b9aa-540a01356fc5kopitiam.jpg');
+
 INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
 VALUES ('Kopitiam (푸드 코트)', '5', '23', 'AM 5:00 - PM 11:00', 'T4, Public, 레벨 2M', 'Kopitiam에서는 모든 사람이 좋은 음식을 저렴하게 만듭니다.
 우리는 즐거운 음식 경험을 통해 가족과 친구들을 연결합니다.', NULL, NULL, NULL, 'Meal', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/04e4a3ae-2f2c-4c2f-b9aa-540a01356fc5kopitiam.jpg');
@@ -140,15 +138,18 @@ INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_ho
 VALUES ('PUTIEN', '11.5', '22', 'AM 11:30 - PM 10:00', 'Jewel, 2F', '싱가포르 최고의 레스토랑 50개 중 하나로 선정된 싱가포르 기반 중국 레스토랑 PUTIEN은 2000년부터 중국 푸젠성 정통 푸티안 요리를 제공해 왔습니다.
 가장 신선한 재료 선택부터 음식 준비까지 재료 본연의 맛을 끌어내는 데 중점을 두고 있습니다.', NULL, 'https://www.putien.com/', NULL, 'Meal', 'SIN','https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/07e9cdef-068e-4110-bd17-0f2e0178d6dbputien.jpg');
 
+INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
+VALUES ('4 Fingers Crispy chicken', '11', '22', 'AM 11:00 - PM 10:00', 'T3, Public, B2', '이곳은 일반 패스트푸드를 넘어선 강렬한 맛을 선사합니다.
+간장 마늘과 핫 앤 스파이시 두 가지 소스로 풍미를 더하고, 독특한 요리 과정으로 가볍고 바삭한 껍질을 만듭니다.
+신선하고 육즙이 풍부한 치킨은 손으로 칠한 소스가 바삭한 껍질에 붙어 더욱 맛있습니다.', NULL, NULL, NULL, 'Meal', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/1a56f28d-be3e-4ecb-ac54-d586b1e0612c4fingers.jpg');
 
 INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
 VALUES ('Swensen''s', '11', '22', 'AM 11:00 - PM 10:00', 'T3, Public, B2', 'Swensen''s는 다양한 음식, 디저트, 음료, 아이스크림 케이크를 제공하는 친근한 캐주얼 레스토랑입니다.
 1979년에 첫 레스토랑을 개장한 이후로 20개 이상의 풀 서비스 레스토랑으로 확장하였으며, 사람들과 함께 풍성한 식사와 달콤한 추억을 공유하고 있습니다', NULL, NULL, NULL, 'Meal', 'SIN','https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/6b210ea3-c7bd-4111-b734-f3a868b4f358swensen%27s.jpg');
 
 INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
-VALUES ('4 Fingers Crispy chicken', '11', '22', 'AM 11:00 - PM 10:00', 'T3, Public, B2', '이곳은 일반 패스트푸드를 넘어선 강렬한 맛을 선사합니다.
-간장 마늘과 핫 앤 스파이시 두 가지 소스로 풍미를 더하고, 독특한 요리 과정으로 가볍고 바삭한 껍질을 만듭니다.
-신선하고 육즙이 풍부한 치킨은 손으로 칠한 소스가 바삭한 껍질에 붙어 더욱 맛있습니다.', NULL, NULL, NULL, 'Meal', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/1a56f28d-be3e-4ecb-ac54-d586b1e0612c4fingers.jpg');
+VALUES ('Kopitiam (푸드 코트)', '0', '24', 'OPEN 24/7', 'T3, Public, B2', 'Kopitiam에서는 모든 사람이 좋은 음식을 저렴하게 만듭니다.
+우리는 즐거운 음식 경험을 통해 가족과 친구들을 연결합니다.', NULL, NULL, NULL , 'Meal', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/04e4a3ae-2f2c-4c2f-b9aa-540a01356fc5kopitiam.jpg');
 
 INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
 VALUES ('Paradise Dynasty at Changi Airport T3', '10.5', '23', 'AM 10:30 - PM 11:00', 'T3, Public, 3F', '다이너스티는 혁신적인 터치로 북부와 남부 중국 요리를 현대적인 스타일로 재해석합니다.
@@ -194,6 +195,29 @@ VALUES ('STARBUCKS', '0', '24', 'OPEN 24/7',
         NULL, NULL, '69106131', 'Cafe', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/6855fd6a-18ed-4c5a-938b-87eb0b0fd843starbucks.png');
 
 INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
+VALUES ('YA KUN KAYA TOAST', '0', '24', 'OPEN 24/7',
+        'T1, Transit, 2F, 출발 라운지(중앙)',
+        'Ya Kun은 70년 전 작은 커피 가판대에서 시작하여 강력한 국내 브랜드로 성장했습니다.
+아시아 전역에 100개 이상의 매장을 가진 Ya Kun은 따듯한 커피와 홈메이드 카야 토스트로 유명합니다.',
+        NULL, NULL, NULL, 'Cafe', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/8f94b2cf-8767-49d5-ab90-2169d27c69c0ya%20kun1.png');
+
+INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
+VALUES ('HUDSONS COFFEE', '0', '24', 'OPEN 24/7', 'T3, Transit, 2F, 출발 라운지(B Gate 근처)',
+        '허드슨 커피에서는 100% 프리미엄 아라비카 원두로 만든 커피를 즐길 수 있습니다.
+호주 공항에서 오랫동안 사랑받아온 이 카페에서는 따뜻하고 차가운 커피 음료 외에도 매일 신선하게 만드는 다양한 스낵을 제공합니다.
+이들은 건강에 좋은 대체 식품으로도 좋습니다.'
+           , NULL, NULL, '63861537', 'Cafe', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/a216edb3-c8d5-437d-9f40-a5906f20a3fdhudsons.jpg');
+
+
+INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
+VALUES ('Paris Baguette', '0', '24', 'OPEN 24/7', 'T2, Public, 1F, 입국장',
+        '파리바게뜨는 최고급 재료로 매일 신선한 빵을 제공합니다.
+''Grab & Go'' 메뉴는 샌드위치와 갓 짜낸 주스를 결합하여 이동 중에도 식사할 수 있습니다.
+또한 브런치, 다양한 디저트가 포함된 저녁 메뉴를 즐길 수 있으며, 독특한 케이크부터 달콤한 푸딩까지 다양한 디저트를 제공합니다.'
+           , NULL, NULL, NULL, 'Cafe', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/69b48dbe-f15b-488b-8815-c4f264bed897paris.jpg');
+
+
+INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
 VALUES ('STARBUCKS', '0', '24', 'OPEN 24/7',
         'T2, Transit, 2F, 출발 라운지(E Gate 근처)',
         '스타벅스에서는 전 세계적으로 사랑받는 커피를 제공합니다.
@@ -226,13 +250,6 @@ VALUES ('STARBUCKS', '0', '24', 'OPEN 24/7',
         NULL, NULL, '69106131', 'Cafe', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/6855fd6a-18ed-4c5a-938b-87eb0b0fd843starbucks.png');
 
 INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
-VALUES ('YA KUN KAYA TOAST', '0', '24', 'OPEN 24/7',
-        'T1, Transit, 2F, 출발 라운지(중앙)',
-        'Ya Kun은 70년 전 작은 커피 가판대에서 시작하여 강력한 국내 브랜드로 성장했습니다.
-아시아 전역에 100개 이상의 매장을 가진 Ya Kun은 따듯한 커피와 홈메이드 카야 토스트로 유명합니다.',
-        NULL, NULL, NULL, 'Cafe', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/8f94b2cf-8767-49d5-ab90-2169d27c69c0ya%20kun1.png');
-
-INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
 VALUES ('YA KUN KAYA TOAST', '6', '1', 'AM 6:00 - AM 1:00 ',
         'T2, Transit, 출발 라운지 (F Gate 근처)',
         'Ya Kun은 70년 전 작은 커피 가판대에서 시작하여 강력한 국내 브랜드로 성장했습니다.
@@ -244,21 +261,8 @@ VALUES ('HUDSONS COFFEE', '6', '1', 'AM 6:00 - AM 1:00 ', 'T2, Transit, 2F, 출�
         '허드슨 커피에서는 100% 프리미엄 아라비카 원두로 만든 커피를 즐길 수 있습니다.
 호주 공항에서 오랫동안 사랑받아온 이 카페에서는 따뜻하고 차가운 커피 음료 외에도 매일 신선하게 만드는 다양한 스낵을 제공합니다.
 이들은 건강에 좋은 대체 식품으로도 좋습니다.'
-        , NULL, NULL, '63861537', 'Cafe', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/a216edb3-c8d5-437d-9f40-a5906f20a3fdhudsons.jpg');
-
-INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
-VALUES ('HUDSONS COFFEE', '0', '24', 'OPEN 24/7', 'T3, Transit, 2F, 출발 라운지(B Gate 근처)',
-        '허드슨 커피에서는 100% 프리미엄 아라비카 원두로 만든 커피를 즐길 수 있습니다.
-호주 공항에서 오랫동안 사랑받아온 이 카페에서는 따뜻하고 차가운 커피 음료 외에도 매일 신선하게 만드는 다양한 스낵을 제공합니다.
-이들은 건강에 좋은 대체 식품으로도 좋습니다.'
            , NULL, NULL, '63861537', 'Cafe', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/a216edb3-c8d5-437d-9f40-a5906f20a3fdhudsons.jpg');
 
-INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
-VALUES ('Paris Baguette', '0', '24', 'OPEN 24/7', 'T2, Public, 1F, 입국장',
-        '파리바게뜨는 최고급 재료로 매일 신선한 빵을 제공합니다.
-''Grab & Go'' 메뉴는 샌드위치와 갓 짜낸 주스를 결합하여 이동 중에도 식사할 수 있습니다.
-또한 브런치, 다양한 디저트가 포함된 저녁 메뉴를 즐길 수 있으며, 독특한 케이크부터 달콤한 푸딩까지 다양한 디저트를 제공합니다.'
-, NULL, NULL, NULL, 'Cafe', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/69b48dbe-f15b-488b-8815-c4f264bed897paris.jpg');
 
 INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
 VALUES ('Paris Baguette', '0', '24', 'OPEN 24/7', 'T3 Public, 1F',
@@ -291,19 +295,6 @@ VALUES ('Birds of Paradise Gelato Boutique', '11', '22', 'AM 11:00 - PM 10:00',
 프리미엄 품질의 젤라또와 독특한 맛을 경험하고 싶으신 분들께 추천합니다.',
         NULL, NULL, '+65 9757 9892', 'Dessert', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/32d8020e-a3ef-4db9-8ad1-3e44b1aeb5bcbirds%20of%20paradise.jpg');
 
-INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
-VALUES ('Birds of Paradies Gelato Boutique', '11', '22', 'AM 11:00 - PM 10:00',
-        'Jewel 1F', 'Birds of Paradise는 자연의 아름다움을 반영한 식물성 젤라또를 제공합니다.
-과일, 꽃, 허브, 향신료, 견과류, 꼬투리 등의 재료로 만든 이 젤라또는 자연에서 영감을 받아 새롭고 아름다운 맛을 창조합니다.
-젤라또 팔러에서 이러한 독특한 식물성 맛의 콘을 즐겨보세요', NULL, NULL, '+65 9757 9892', 'Dessert', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/32d8020e-a3ef-4db9-8ad1-3e44b1aeb5bcbirds%20of%20paradise.jpg');
-
-
-INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
-VALUES ('Zero Degree', '10', '21', 'AM 10:00 - PM 9:00', 'T3, B2',
-        'Zero Degree Artisanal Ice Cream은 혁신적이고 창의적인 젤라토를 제공하는 싱가포르의 아이스크림 가게입니다.
-싱가포르 창이 국제공항 T3에 위치한 이곳은 다양한 젤라또 맛을 자랑하며, 현지에서 영감을 받은 창작품과 독창적인 창작품을 즐길 수 있습니다.'
-        , NULL, NULL, '+65 9647 0311', 'Dessert', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/0c75f105-5d9b-499e-b99f-5a666535d1e4zero%20degree.jpg');
-
 
 INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
 VALUES ('Bengawan Solo', '6', '11.75', 'AM 6:00 - PM 11:45 ',
@@ -312,6 +303,31 @@ VALUES ('Bengawan Solo', '6', '11.75', 'AM 6:00 - PM 11:45 ',
 Kueh Lapis, 버터 케이크 등의 시그니처 간식을 맛볼 수 있습니다.
 여행자들은 친구들에게 선물로 가져가기 위해 케이크를 구입합니다.',
         NULL, NULL, NULL, 'Dessert', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/38a7c347-cc27-420d-9055-20554136bb45bengawan%201.png');
+
+
+INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
+VALUES ('Zero Degree', '10', '21', 'AM 10:00 - PM 9:00', 'T3, B2',
+        'Zero Degree Artisanal Ice Cream은 혁신적이고 창의적인 젤라토를 제공하는 싱가포르의 아이스크림 가게입니다.
+싱가포르 창이 국제공항 T3에 위치한 이곳은 다양한 젤라또 맛을 자랑하며, 현지에서 영감을 받은 창작품과 독창적인 창작품을 즐길 수 있습니다.'
+           , NULL, NULL, '+65 9647 0311', 'Dessert', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/0c75f105-5d9b-499e-b99f-5a666535d1e4zero%20degree.jpg');
+
+
+INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
+VALUES ('Heavenly Wang', '0', '24', 'OPEN 24/7',
+        'T2, Public, 1F, 입국장 미팅홀(남쪽)',
+        '1953년 싱가포르 부기스 스트리트에서 시작해 현지 스타일의 인기 아침 식사인 코피, 카야 토스트, 반숙 계란을 제공하는 카페입니다.
+이곳은 난양 전통과 아시아 유산의 재료에서 영감을 받아, 변화하는 시대를 반영하여 싱가포르 현지 인기 요리를 지속적으로 재창조하고 있습니다.',
+        NULL, NULL, NULL, 'Dessert', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/ec9407d5-54af-4dcc-aac9-3693be5fe36awang.jpg');
+
+
+
+INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
+VALUES ('Birds of Paradies Gelato Boutique', '11', '22', 'AM 11:00 - PM 10:00',
+        'Jewel 1F', 'Birds of Paradise는 자연의 아름다움을 반영한 식물성 젤라또를 제공합니다.
+과일, 꽃, 허브, 향신료, 견과류, 꼬투리 등의 재료로 만든 이 젤라또는 자연에서 영감을 받아 새롭고 아름다운 맛을 창조합니다.
+젤라또 팔러에서 이러한 독특한 식물성 맛의 콘을 즐겨보세요', NULL, NULL, '+65 9757 9892', 'Dessert', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/32d8020e-a3ef-4db9-8ad1-3e44b1aeb5bcbirds%20of%20paradise.jpg');
+
+
 
 INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
 VALUES ('Bengawan Solo', '6', '1', 'AM 6:00 - AM 1:00',
@@ -347,13 +363,6 @@ VALUES ('Heavenly Wang', '0', '24', 'OPEN 24/7',
 
 INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
 VALUES ('Heavenly Wang', '0', '24', 'OPEN 24/7',
-        'T2, Public, 1F, 입국장 미팅홀(남쪽)',
-        '1953년 싱가포르 부기스 스트리트에서 시작해 현지 스타일의 인기 아침 식사인 코피, 카야 토스트, 반숙 계란을 제공하는 카페입니다.
-이곳은 난양 전통과 아시아 유산의 재료에서 영감을 받아, 변화하는 시대를 반영하여 싱가포르 현지 인기 요리를 지속적으로 재창조하고 있습니다.',
-        NULL, NULL, NULL, 'Dessert', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/ec9407d5-54af-4dcc-aac9-3693be5fe36awang.jpg');
-
-INSERT INTO meal_options_db_frame (meal_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
-VALUES ('Heavenly Wang', '0', '24', 'OPEN 24/7',
         'T3, Transit, 2F, 출발 라운지(중앙)',
         '1953년 싱가포르 부기스 스트리트에서 시작해 현지 스타일의 인기 아침 식사인 코피, 카야 토스트, 반숙 계란을 제공하는 카페입니다.
 이곳은 난양 전통과 아시아 유산의 재료에서 영감을 받아, 변화하는 시대를 반영하여 싱가포르 현지 인기 요리를 지속적으로 재창조하고 있습니다.',
@@ -370,14 +379,6 @@ VALUES ('Heavenly Wang', '0', '24', 'OPEN 24/7',
 
 
 -- Fashion
-INSERT INTO shopping_options_db_frame (shopping_options_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
-VALUES ('Tommy Hilfiger', '6', '1', 'AM 6:00 - AM 1:00',
-        'T2, Transit, 2F, 출발 라운지(E Gate 근처)',
-        '1985년 설립된 Tommy Hilfiger는 프리미엄 라이프스타일 브랜드로 성장하였습니다.
-타미 힐피거의 플래그 로고는 클래식하고 세련된 느낌이 더해진 고품질의 전형적인 미국 스타일을 상징합니다.
-이 브랜드는 남성과 여성을 위한 다양한 라이프스타일 제품을 제공합니다.',
-        NULL, NULL, NULL, 'Fashion', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/e1342c00-0930-427e-8835-96add771f3abtommy.jpg');
-
 
 INSERT INTO shopping_options_db_frame (shopping_options_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
 VALUES ('Cosmetics & Perfumes by The Shilla''s', '0', '24', 'OPEN 24/7',
@@ -385,6 +386,14 @@ VALUES ('Cosmetics & Perfumes by The Shilla''s', '0', '24', 'OPEN 24/7',
         '신라 면세점은 싱가포르 및 아시아 태평양 공항에서 가장 다양한 뷰티 및 스킨케어 브랜드를 보유하고 있습니다.
 140개 이상의 국제 브랜드 제품을 선택하고, 공용 체크인 홀에서 인기 있는 한국 컬트 브랜드를 쇼핑할 수 있습니다.',
         NULL, NULL, '67186788', 'Beauty', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/b466b4a8-95df-4d36-85c4-67b6e6a5d06ashilla.jpg');
+
+INSERT INTO shopping_options_db_frame (shopping_options_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
+VALUES ('Maison Margiela', '10', '22', 'AM 10:00 - PM 10:00', 'Jewel, 1F', 'Maison Margiela는 1988년 벨기에 디자이너 Martin Margiela가 파리에서 설립한 프랑스 패션 하우스입니다.
+1994년에는 전 세계에서 수집한 의류에서 영감을 받은 의류 및 액세서리 컬렉션인 ''레플리카(Replica)''를 선보였습니다.', NULL, NULL, '+65 6015 0940', 'Fashion', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/40252b32-09ae-4d03-b14d-5609a2efcfabmaison.jpg');
+
+
+INSERT INTO shopping_options_db_frame (shopping_options_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
+VALUES ('Asian Artistry Fine Jewellery', '10', '22', 'AM 10:00 - PM 10:00', 'Jewel, 1F', '각각의 작품이 절묘한 솜씨와 현대적인 디자인을 결합한 Asian Artistry Fine Jewellery에서 페라나칸, 중국 및 인도 유산과 문화의 아름다움을 발견해 보세요.', NULL, NULL, NULL, 'Fashion', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/8c666d9e-3c6b-46e3-8a05-aef2753905e4asian.jpg');
 
 INSERT INTO shopping_options_db_frame (shopping_options_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
 VALUES ('Cosmetics & Perfumes by The Shilla''s', '0', '24', 'OPEN 24/7',
@@ -453,6 +462,14 @@ VALUES ('Cosmetics & Perfumes by The Shilla''s', '0', '24', 'OPEN 24/7',
 140개 이상의 국제 브랜드 제품을 선택하고, 공용 체크인 홀에서 인기 있는 한국 컬트 브랜드를 쇼핑할 수 있습니다.',
         NULL, NULL, '67186788', 'Beauty', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/b466b4a8-95df-4d36-85c4-67b6e6a5d06ashilla.jpg');
 
+INSERT INTO shopping_options_db_frame (shopping_options_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
+VALUES ('Tommy Hilfiger', '6', '1', 'AM 6:00 - AM 1:00',
+        'T2, Transit, 2F, 출발 라운지(E Gate 근처)',
+        '1985년 설립된 Tommy Hilfiger는 프리미엄 라이프스타일 브랜드로 성장하였습니다.
+타미 힐피거의 플래그 로고는 클래식하고 세련된 느낌이 더해진 고품질의 전형적인 미국 스타일을 상징합니다.
+이 브랜드는 남성과 여성을 위한 다양한 라이프스타일 제품을 제공합니다.',
+        NULL, NULL, NULL, 'Fashion', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/e1342c00-0930-427e-8835-96add771f3abtommy.jpg');
+
 
 INSERT INTO shopping_options_db_frame (shopping_options_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
 VALUES ('LACOSTE', '6', '1', 'AM 6:00 - AM 1:00',
@@ -467,13 +484,6 @@ VALUES ('LACOSTE', '6', '1', 'AM 6:00 - AM 1:00', 'T2, Transit, 2F, 출발 라�
 유산과 현대성, 스포츠와 일상을 결합한 LACOSTE 스타일은 아이코닉하고 현대적인 도시적인 컬렉션을 통해 구체화됩니다.',
         NULL, 'www.lacoste.com', NULL, 'Fashion', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/770afb55-68bc-435a-886b-ed3d88238240lacoste.jpg');
 
-INSERT INTO shopping_options_db_frame (shopping_options_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
-VALUES ('Maison Margiela', '10', '22', 'AM 10:00 - PM 10:00', 'Jewel, 1F', 'Maison Margiela는 1988년 벨기에 디자이너 Martin Margiela가 파리에서 설립한 프랑스 패션 하우스입니다.
-1994년에는 전 세계에서 수집한 의류에서 영감을 받은 의류 및 액세서리 컬렉션인 ''레플리카(Replica)''를 선보였습니다.', NULL, NULL, '+65 6015 0940', 'Fashion', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/40252b32-09ae-4d03-b14d-5609a2efcfabmaison.jpg');
-
-INSERT INTO shopping_options_db_frame (shopping_options_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
-VALUES ('Asian Artistry Fine Jewellery', '10', '22', 'AM 10:00 - PM 10:00', 'Jewel, 1F', '각각의 작품이 절묘한 솜씨와 현대적인 디자인을 결합한 Asian Artistry Fine Jewellery에서 페라나칸, 중국 및 인도 유산과 문화의 아름다움을 발견해 보세요.', NULL, NULL, NULL, 'Fashion', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/8c666d9e-3c6b-46e3-8a05-aef2753905e4asian.jpg');
-
 
 -- Food, Beverage, Duty free
 INSERT INTO shopping_options_db_frame (shopping_options_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
@@ -483,6 +493,34 @@ VALUES ('8 by Bottles & Bottles', '10', '22', 'AM 10:00 - PM 10:00 ',
 이곳은 특별한 날을 위한 와인 선택에서 신뢰할 수 있는 공급원으로 자리매김하였습니다.
 또한, 전 세계의 다양한 프리미엄 와인, 샴페인을 만나볼 수 있습니다',
         NULL, 'https://www.bottlesandbottles.com.sg/', NULL, 'Beverage', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/c5e0da08-44bc-46e3-8ff9-670b98be7f12bottles.jpg');
+
+
+INSERT INTO shopping_options_db_frame (shopping_options_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
+VALUES ('Lotte Duty Free Wine & Liquor', '0', '24', 'OPEN 24/7',
+        'T1, Transit, 1F, 입국장(D Gate 근처)',
+        '이 롯데면세점에서는 모든 여행자를 위한 다양한 주류를 선보입니다.
+Martell, Hennessy, Johnnie Walker 및 Macallan과 같은 프리미엄 와인과 고급 주류 중에서 선택하실 수 있습니다.
+롯데면세점에서 특별한 순간을 위한 완벽한 주류를 찾아보세요.',
+        NULL, NULL, '87255890', 'Beverage', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/a09918d9-4c02-49b3-b8e8-332b140af617lotte%20duty%20free.png');
+
+
+
+
+INSERT INTO shopping_options_db_frame (shopping_options_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
+VALUES ('Fairpric Finest', '7', '22', 'AM 7:00 - PM 10:00 ',
+        'T3, Public, B2',
+        'FairPrice Finest는 단순함과 정교함, 가치와 품질, 건강함과 즐거움의 균형을 이루는 다양한 제품을 공정한 가격으로 제공합니다.
+지식이 풍부한 직원들이 흥미로운 제품과 라이프스타일 이벤트, 헌신적인 서비스를 통해 고객에게 만족을 제공합니다.',
+        NULL, NULL, '62426653', 'Duty_free', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/a4bd3f94-66a6-460b-99e6-c7e7cf9055c0fairprice.jpg');
+
+INSERT INTO shopping_options_db_frame (shopping_options_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
+VALUES ('Cheers', '0', '24', 'OPEN 24/7',
+        'T1, Public, 2F',
+        'Cheers 편의점에서는 간단한 음료와 간식, 신문, 잡지, 세면도구 등을 24시간 내내 구매하실 수 있습니다.
+어떤 잡다한 요구사항이든, 언제든지 즉각적인 만족을 얻을 수 있는 곳입니다.
+여러분의 일상 속 편의를 위해 항상 준비되어 있습니다.',
+        NULL, NULL, NULL, 'Duty_free', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/334f4c95-07d2-478b-9458-0ba351b66eb8cheers.png');
+
 
 
 INSERT INTO shopping_options_db_frame (shopping_options_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
@@ -521,14 +559,6 @@ VALUES ('The Cocoa Trees', '0', '24', 'OPEN 24/7',
         NULL, NULL, NULL, 'Snack' ,'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/b78df920-7eea-4cad-87d8-eb0fc8790350the%20cocoa%20trees.jpg');
 
 
-
-INSERT INTO shopping_options_db_frame (shopping_options_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
-VALUES ('Lotte Duty Free Wine & Liquor', '0', '24', 'OPEN 24/7',
-        'T1, Transit, 1F, 입국장(D Gate 근처)',
-        '이 롯데면세점에서는 모든 여행자를 위한 다양한 주류를 선보입니다.
-Martell, Hennessy, Johnnie Walker 및 Macallan과 같은 프리미엄 와인과 고급 주류 중에서 선택하실 수 있습니다.
-롯데면세점에서 특별한 순간을 위한 완벽한 주류를 찾아보세요.',
-        NULL, NULL, '87255890', 'Beverage', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/a09918d9-4c02-49b3-b8e8-332b140af617lotte%20duty%20free.png');
 
 
 INSERT INTO shopping_options_db_frame (shopping_options_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
@@ -683,22 +713,6 @@ Martell, Hennessy, Johnnie Walker 및 Macallan과 같은 프리미엄 와인과 
 
 
 
-
-INSERT INTO shopping_options_db_frame (shopping_options_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
-VALUES ('Fairpric Finest', '7', '22', 'AM 7:00 - PM 10:00 ',
-        'T3, Public, B2',
-        'FairPrice Finest는 단순함과 정교함, 가치와 품질, 건강함과 즐거움의 균형을 이루는 다양한 제품을 공정한 가격으로 제공합니다.
-지식이 풍부한 직원들이 흥미로운 제품과 라이프스타일 이벤트, 헌신적인 서비스를 통해 고객에게 만족을 제공합니다.',
-        NULL, NULL, '62426653', 'Duty_free', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/a4bd3f94-66a6-460b-99e6-c7e7cf9055c0fairprice.jpg');
-
-INSERT INTO shopping_options_db_frame (shopping_options_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
-VALUES ('Cheers', '0', '24', 'OPEN 24/7',
-        'T1, Public, 2F',
-        'Cheers 편의점에서는 간단한 음료와 간식, 신문, 잡지, 세면도구 등을 24시간 내내 구매하실 수 있습니다.
-어떤 잡다한 요구사항이든, 언제든지 즉각적인 만족을 얻을 수 있는 곳입니다.
-여러분의 일상 속 편의를 위해 항상 준비되어 있습니다.',
-        NULL, NULL, NULL, 'Duty_free', 'SIN', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/334f4c95-07d2-478b-9458-0ba351b66eb8cheers.png');
-
 INSERT INTO shopping_options_db_frame (shopping_options_name, open_time, close_time, business_hours, location, information, cost, blog, phone_number, type, layover_airport_id, image_url)
 VALUES ('Cheers', '0', '24', 'OPEN 24/7',
         'T2, Public, 2F, 출발/체크인 홀(남쪽)',
@@ -820,8 +834,8 @@ Step3. WiFi 로고를 클릭하고 3시간 무료 Wifi를 즐겨보세요!', 'FR
 [ 3 Terminal ] 출국장 2F (A8 옆 | A21 옆 | B9, 10 사이)
 [ 4 Terminal ] 출국장 2F (Heritage Zone 주변 | G16 앞)
                          출국장 2MF (Blossom 프리미엄 라운지 옆)'
-, 'SMOKING AREA'
-,'[Hub & Spoke 공용 샤워실] 2T 외부 1F, AM 7:00 - PM 10:00(1인당 SG$5 | 2회 입장 시 SG$7)  
+       , 'SMOKING AREA'
+       ,'[Hub & Spoke 공용 샤워실] 2T 외부 1F, AM 7:00 - PM 10:00(1인당 SG$5 | 2회 입장 시 SG$7)  
 수건을 제외한 온수, 샴푸, 바디워시, 헤어드라이어 등의 편의시설이 제공
 (Hub&Spoke의 자판기에서 일회용 수건  구입 가능) 
 [Terminal 1] Plaza Premium Lounge (3F, 출발 환승 홀(C Gate 근처), OPEN 24/7 
@@ -829,8 +843,8 @@ Step3. WiFi 로고를 클릭하고 3시간 무료 Wifi를 즐겨보세요!', 'FR
                        Be Relax (2층, 출발 환승 홀, 매일 AM 8:00 - PM 11:00)
                        Nature Land spa (입국장 1F 미팅홀, 매일 AM 9:00 - PM10:30) 
 [쥬얼 창이 공항] Changi Lounge (1층 리프트 로비 E 옆, 매일 AM 9:00 - PM 9:00)'
-, 'SHOWER FACILITIES'
-, '공항에 머무는 동안 몸이 불편하거나 의료 지원이 필요한 경우,  
+       , 'SHOWER FACILITIES'
+       , '공항에 머무는 동안 몸이 불편하거나 의료 지원이 필요한 경우,  
 다음 진료소 및 약국을 방문하여 치료를 받거나 빠른 회복을 위해 약을 구할 수 있습니다. 
 응급 상황 발생 시 (+65 6543 2223)  
 
@@ -839,8 +853,8 @@ Raffles Medical Group [1 Terminal] 출국장 2F (동쪽 D Gate 근처 | 서쪽
 [3 Terminal] B2, 공용 공간(버스 정류장 근처)(약사가 근무하지 않음) 
                           출국장 2F (Quickbites 근처 | 게이트 B1 근처) 
 [공항 약국] T4 출국장 2F (롯데 면세점 옆)'
-, 'CLINICS & PHARMACIES'
-, '[ChangiFX, UOB, Travelex]  
+       , 'CLINICS & PHARMACIES'
+       , '[ChangiFX, UOB, Travelex]  
 [ 1 Terminal ] 입국장 1F 수하물 홀 
                         출국장 2F(C Gate 근처 | D Gate 근처) 
 [ 2 Terminal ] 입국장 1F
@@ -850,23 +864,23 @@ Raffles Medical Group [1 Terminal] 출국장 2F (동쪽 D Gate 근처 | 서쪽
                         출국장 2F(A Gate근처 | B Gate 근처) 
 [ 4 Terminal ] 입국장 1F
                          출국장 2F'
-, 'CURRENCY EXCHANGE'
-, '24시간당 보관 요금 (GST 포함) 
+       , 'CURRENCY EXCHANGE'
+       , '24시간당 보관 요금 (GST 포함) 
 일반 품목: 6달러 | 소형 품목(10kg 미만): 11달러 
 대형 품목(10kg 초과): 16달러 | 특대형 품목: 19달러 모든 가방이나 물건은 보안 검사를 통과해야 합니다.  
 [ 1 Terminal ] 환승장 2F 서쪽 Guardian 근처 | OPEN 24/7 (+65 6214 0318) 
 [ 2 Terminal ] 환승장 2F 북쪽 Raffles Medical 옆 | 매일 AM 7:00 - PM 11:00 (+65 6513 3671) 
 [ 3 Terminal ] 환승장 2F 서쪽(Maison De Chronus enl 뒤 | OPEN 24/7 (+65 6214 0672)'
-, 'LUGGAGE STORAGE'
-, '여행 중 궁금한 사항, 분실물 문의,
+       , 'LUGGAGE STORAGE'
+       , '여행 중 궁금한 사항, 분실물 문의,
 휠체어 및 유모차 대여와 같은 다양한 서비스를 제공합니다.
 ''i'' 로고가 보이는 곳이면 어디서든 도움을 받을 수 있습니다.  
 [ 1 Terminal ] 입국장 1F, 출국장 2F 체크인 카운터 중앙, 출국장 2F 환승 라운지 양쪽 
 [ 2 Terminal ] 입국장 1F, 출국장 2F 환승 라운지 양쪽
 [ 3 Terminal ] 입국장 1F, 출국장 2F 체크인 카운터 중앙, 출국장 2F 환승 라운지 중앙 및 양쪽 
 [ 4 Terminal ] 입국장 1F, 출국장 2F 체크인 카운터 중앙, 출국장 2F 환승 라운지 양쪽'
-, 'INFO CENTER'
-, 'T1, T2, T3 는 스카이 트레인 또는 도보로 이동이 가능합니다.
+       , 'INFO CENTER'
+       , 'T1, T2, T3 는 스카이 트레인 또는 도보로 이동이 가능합니다.
 T4는 셔틀 버스로만 이동할 수 있습니다.  
 
 [스카이 트레인] 배차간격 4~5분 
@@ -875,8 +889,8 @@ T1 <-> T2 (환승구역 D<->E) | T1 <-> T3 (환승구역 C <-> B) | T2 <-> T3 (�
 
  T2 <-> T3 (환승구역 F<->A) 
 매일 AM 05:00 - AM 02:00'
-, 'SKY TRAIN'
-, '[공공 셔틀버스] T1, T2, T3 <-> T4 (T1 C21 Gate, T3에서 출발) 
+       , 'SKY TRAIN'
+       , '[공공 셔틀버스] T1, T2, T3 <-> T4 (T1 C21 Gate, T3에서 출발) 
 [직행 서비스] T1/Jewel -> T4 (매일 AM 06:00 - AM 12:00 | 배차간격 9~26분)
                        T2/MRT -> T4 (매일 AM 06:00 - AM 12:00) | 배차간격 6~26분)
 
@@ -886,16 +900,16 @@ T4 탑승 지점 : T4 도착 버스 라운지 | T4 하차 지점 : T4 출발 4�
 
 [환승 셔틀버스] T1 C21 게이트 > T3 입국심사대 A > T4 환승 라운지 
 OPEN 24/7, 배차간격 13분, T4 > T1: 18분 | T1 > T3: 6분 | T3 > T4: 12분'
-, 'SHUTTLE SERVICE'
-, '월-토 : AM 5:31 - PM 11:18 | 일요일 및 공휴일 : AM 05:59 - PM 11:18 
+       , 'SHUTTLE SERVICE'
+       , '월-토 : AM 5:31 - PM 11:18 | 일요일 및 공휴일 : AM 05:59 - PM 11:18 
 Pasir Ris 연결 막차 : 매일 AM 00:06 | 배차 간격 : 7-9분
 소요 시간 : 창이 공항-시티홀역, 약 40분 소요 
 
 결제 옵션 : 마스터카드/비자/NETS 은행 카드, 모바일 지갑 및 Singapore Tourist Pass포함  
 (해외 카드로 결제 시 관리 수수료 부과) 
 시티홀역 기준 성인 1인당 SG $1.88 | 만4세이하 무료 | 1회권 (성인, 아동 요금 동일) 사용 시 SG $2.6'
-, 'TRAIN MRT'
-, '[ Terminal 1, 2, 3, 4 ]도착 구역에 있는 택시 정류장에서 탑승 가능합니다.
+       , 'TRAIN MRT'
+       , '[ Terminal 1, 2, 3, 4 ]도착 구역에 있는 택시 정류장에서 탑승 가능합니다.
 시내까지는 약 2~30분 정도 소요되며 비용은 약 S$20~S$40 정도이며 미터기로 측정됩니다. 
 월-일 PM 5:00 - PM 11:59 : S$8 공항 추가 요금 
 그 외 모든 시간 : 공항 추가 요금 S$6  
@@ -903,8 +917,8 @@ Pasir Ris 연결 막차 : 매일 AM 00:06 | 배차 간격 : 7-9분
 심야 할증료 (AM 12:00 - AM 5:59) : 최종 미터 요금의 50% 
 피크 시간대 할증료
 (월-금 PM 5:00 - PM 11:59 | 월-일 AM 10:00 ~ PM 1:59 | 주말 및 공휴일) : 최종 요금의 25%'
-, 'TAXI'
-, '[ Terminal 1, 2, 3 ] 지하 버스 정류장에서 24, 27, 34, 36, 53, 110, 858번 버스 탑승 가능 
+       , 'TAXI'
+       , '[ Terminal 1, 2, 3 ] 지하 버스 정류장에서 24, 27, 34, 36, 53, 110, 858번 버스 탑승 가능 
 [ Terminal 4 ] 주차장 4B 옆 버스 정류장에서 24, 34, 36, 110 버스 탑승 가능 
 SATS 기내 케이터링 센터 1 근처 버스 정류장에서 27, 53, 858 버스 탑승 가능  
 
@@ -914,19 +928,19 @@ SATS 기내 케이터링 센터 1 근처 버스 정류장에서 27, 53, 858 버�
 (해외 카드로 결제 시 관리 수수료 부과) 
 소요시간 : 창이 공항 2 터미널 - 캐피찰 블로드 약 1시간 소요(시티 홀역 근처 정류장) 
 카드 사용 시 성인 SG $2 | 만 4세 이하 무료 | 1회권(성인 & 아동 요금 동일) SG $2.6  '
-, 'PUBLIC BUS'
-, '각 터미널 1층 입국장 안내 카운터 옆 24시간 지상 운송 컨시어지(GTC)에 문의
+       , 'PUBLIC BUS'
+       , '각 터미널 1층 입국장 안내 카운터 옆 24시간 지상 운송 컨시어지(GTC)에 문의
 
 교통 옵션 : 
 4인승 차량(싱가포르 내 모든 목적지까지 편도당 S$55.00) 
 7인승 차량(싱가포르 내 모든 목적지까지 편도당 S$60.00)'
-, 'AIRPORT TRANSFER'
-, '[공항 셔틀 버스]
+       , 'AIRPORT TRANSFER'
+       , '[공항 셔틀 버스]
 각 터미널 1층 입국장 안내 카운터 옆 24시간 지상 운송 컨시어지(GTC)에 문의
 
 - 성인 1인당 S$10, 어린이(12세 미만) 1인당 S$7의 요금으로 시내에 위치한  대부분의 호텔까지 탑승할 수 있습니다.
 - AM 07:00 - PM 11:00 매 시간 출발'
-, 'SHUTTLE SERVICE');
+       , 'SHUTTLE SERVICE');
 
 
 
@@ -974,8 +988,8 @@ INSERT INTO paid_activity_db_frame (paid_activity_name, open_time, close_time, u
 VALUES ('Lion City Highlights Bike Tour', 9, 24, 4, 'AM 9:00 ~', '싱가포르의 역사와 문화를 체험하고 싶다면 현지 전문 가이드와 함께 하는 관광 자전거 투어에 참여해 보세요.
 도시를 달리며 인적이 드문 길에서 싱가포르의 흥미로운 측면을 발견할 수 있습니다.
 니콜 하이웨이 MRT 역 지상 A 출구의 택시 승차장 F21에서 만납니다.',
-     NULL, 'https://www.getyourguide.com/ko-kr/singgaporeu-l170/singgaporeu-raion-siti-hairaiteu-bannajeol-jajeongeo-tueo-t327376?date_from=2024-02-23&date_to=2024-02-22&date_to=2024-02-22&ranking_uuid=0949774e-a80a-451f-8f70-36277f8f38b9&_pc=1,1',
-     'paid_tour', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/da7bf0fb-df92-4ffa-8b11-1c71582a3e7abike_tour.jpg', 'SIN');
+        NULL, 'https://www.getyourguide.com/ko-kr/singgaporeu-l170/singgaporeu-raion-siti-hairaiteu-bannajeol-jajeongeo-tueo-t327376?date_from=2024-02-23&date_to=2024-02-22&date_to=2024-02-22&ranking_uuid=0949774e-a80a-451f-8f70-36277f8f38b9&_pc=1,1',
+        'paid_tour', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/da7bf0fb-df92-4ffa-8b11-1c71582a3e7abike_tour.jpg', 'SIN');
 
 
 INSERT INTO paid_activity_db_frame
@@ -1018,7 +1032,7 @@ INSERT INTO paid_activity_db_frame
 (paid_activity_name, open_time, close_time, used_time, business_time, information, cost, homepage, type, image_url, layover_airport_id)
 VALUES
     ('Big Bus Night Tour with Live Guide', 9, 17, 3, '정보란 참고', '빅 버스 나이트 투어는 싱가포르 야경을 경험하며, 옐로우 라인(70분 간격, 9:00~18:00), 레드라인(60분 간격, 9:30~17:00), 블루라인(30분 간격, 9:25~17:15), 그린라인(45분 간격, 9:00~17:30)으로 운행합니다.'
-    , NULL,'https://www.getyourguide.com/ko-kr/gadeunseu-bai-deo-bei-l5785/singgaporeu-3sigan-pul-gaideu-daehyeong-beoseu-naiteu-tueo-t309108?ranking_uuid=1fff8a28-5e66-45da-9675-bed61365c436&date_from=2024-02-29&_pc=1,1',
+        , NULL,'https://www.getyourguide.com/ko-kr/gadeunseu-bai-deo-bei-l5785/singgaporeu-3sigan-pul-gaideu-daehyeong-beoseu-naiteu-tueo-t309108?ranking_uuid=1fff8a28-5e66-45da-9675-bed61365c436&date_from=2024-02-29&_pc=1,1',
      'paid_tour', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/9108b337-2cc1-4359-a5ff-914d99a545acbig_bus.jpg', 'SIN');
 
 
@@ -1044,16 +1058,16 @@ VALUES ('Heritage Tour', '마리나베이 - 중심 상업 지구 - 차이나타�
 
 INSERT INTO free_tour_db_frame(free_tour_name, route, business_time, information, cost, homepage, type, image_url, layover_airport_id)
 VALUES ('City Sights Tour', '시청 - 시민 지구 - 주빌리 브릿지 - 머라이언 공원 (30분 경유) - 가든스 바이 더 베이 (30분 체류) - 마리나 베이 샌즈', '2h 30min',
-     '싱가포르의 현대적이고 웅장한 도시 경관은 활기차고 살기 좋은 도시를 보장하기 위해 지속 가능한 방식으로
-건설되어 왔습니다. 세계적으로 유명한 마리나 베이의 스카이라인과 슈퍼트리의 놀라운 전망을 감상해보세요.',
-     '무료', 'https://www.changiairport.com/en/discover/recommended-itineraries/free-singapore-city-sights-tour.html', 'free_tour', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/e00506d7-c651-4409-b2dc-309923922f27sights0tour.jpg', 'SIN');
+        '싱가포르의 현대적이고 웅장한 도시 경관은 활기차고 살기 좋은 도시를 보장하기 위해 지속 가능한 방식으로
+   건설되어 왔습니다. 세계적으로 유명한 마리나 베이의 스카이라인과 슈퍼트리의 놀라운 전망을 감상해보세요.',
+        '무료', 'https://www.changiairport.com/en/discover/recommended-itineraries/free-singapore-city-sights-tour.html', 'free_tour', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/e00506d7-c651-4409-b2dc-309923922f27sights0tour.jpg', 'SIN');
 
 
 INSERT INTO free_tour_db_frame(free_tour_name, route, business_time, information, cost, homepage, type, image_url, layover_airport_id)
 VALUES ('Jewel Tour', '창이 공항 제3터미널 - 시세이도 포레스트 밸리 - HSBC Rain Vortex - 지역유산 브랜드 - 창이 체험 스튜디오 - 캐노피 파크', '2h 30min',
-     '창이 공항의 최신 개발 사업인 쥬얼에서 자연이 소매점과 만나는 쥬얼의 모든 경이로운 세계를
-발견해보세요. 울창한 녹색 보호구역에 푹 빠져보고, 현지 전통 브랜드의 간식을 맛보세요.',
-     '무료', 'https://www.changiairport.com/en/discover/recommended-itineraries/free-jewel-tour.html', 'free_tour', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/ad7462ac-089d-42df-b498-85306273962djewel_tour.jpg', 'SIN');
+        '창이 공항의 최신 개발 사업인 쥬얼에서 자연이 소매점과 만나는 쥬얼의 모든 경이로운 세계를
+   발견해보세요. 울창한 녹색 보호구역에 푹 빠져보고, 현지 전통 브랜드의 간식을 맛보세요.',
+        '무료', 'https://www.changiairport.com/en/discover/recommended-itineraries/free-jewel-tour.html', 'free_tour', 'https://elasticbeanstalk-ap-northeast-2-975049928260.s3.ap-northeast-2.amazonaws.com/viaF/ad7462ac-089d-42df-b498-85306273962djewel_tour.jpg', 'SIN');
 
 
 INSERT INTO free_tour_db_frame(free_tour_name, route, business_time, information, cost, homepage, type, image_url, layover_airport_id)

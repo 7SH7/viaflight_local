@@ -24,6 +24,24 @@ public class PaidActivityDBFrameDto {
 	private String imageURL;
 	private String layoverAirportId;
 
+	private String wifiHeader;
+	private String smokingHeader;
+	private String showerFacilitiesHeader;
+	private String clinicsPharmacies;
+	private String informationCenterHeader;
+	private String luggageStorageHeader;
+	private String currencyExchangeHeader;
+
+	private String skyTrainInAirportHeader;
+	private String shuttleBusInAirportHeader;
+
+	private String trainMrtOutAirportHeader;
+	private String taxiOutAirportHeader;
+	private String publicBusOutAirportHeader;
+	private String airportTransferOutAirportHeader;
+	private String shuttleBusOutAirportHeader;
+
+
 	public static PaidActivityDBFrameDto from(PaidActivityDBFrame paidActivityDBFrame) {
 		return PaidActivityDBFrameDto.builder()
 				.paidActivityName(paidActivityDBFrame.getPaidActivityName())
