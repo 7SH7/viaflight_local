@@ -157,18 +157,23 @@
 
 <h4>명일 작업</h4>
 <ul>
+  <li>데모데이..</li>
 </ul>
 
 <hr>
 
+<h1>데모데이 결과</h1>
+
+![image](https://github.com/7SH7/viaflight_local/assets/97334714/9d9d5c18-2b32-4f2c-a996-67fffb76db23)
+
+<li>느낀점: 학부/일반인에게는 프론트적인 부분이 많이 중요하다. -> 백엔드 역할은 그닥 부각되지 않는다. </li>
+
 <h1>데모데이 마치고 바뀔 기능들</h1>
 <ul>
   <li>LayoverAirport API를 3개의 API로 나눌 것 -> 공항관련 내용, 공항 내부 아이콘 내용, 공항 외부 아이콘 내용</li>
-  <li>아마데우스API를 불러와서 항공권 결제 및 조회 기능 넣을 예정</li>
   <li>도착시간  -> localdatetime으로 바꾸기 ::> 이후에 항공권 선택 및 결제 부분까지 하였을 경우, localdatetime이 비교하기에 더 적합할 것으로 판단됨.</li>
   - 지금은 double로 되어 있지만, 해당 기능은 변경 필수적일 예정
   <li>layoverAirportDBFrame에 대한 내용들 (담배터, 환전소 관련 기능) -> 각각 하나의 domain class로 정의해두기.</li>
-  <li>예상 기간 ::> 아마데우스API불러오는 것 2~3일</li>
   <li>도착 기능 ::> localdatetime으로 바꿀 예정 (위에 항공권 예약 관련 기능으로 바꾸려면 필수)</li>
 </ul>
 
